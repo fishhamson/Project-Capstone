@@ -35,6 +35,8 @@ header{
 }
 #navbarCorpvision .nav-item .nav-link:hover{
     color: white;
+    color: white;
+    opacity: 1;
 }
 .header__search i{
     width: 45px;
