@@ -9,8 +9,10 @@ html , body {
 }
 /* HEADER */
 header{
-    background-color: aqua;
     border-bottom: 1px solid rgba(231, 231, 231, 0.18);
+    z-index: 3;
+    position: absolute;
+    width: 100%;
 }
 .navbar .header__title h1{
     font-size: 30px;
@@ -26,6 +28,15 @@ header{
     font-weight: 600;
     color: white;
 }
+.header__search i{
+    width: 45px;
+    height: 45px;
+    background-color: #009f4d;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 45px;
+    color: white;
+}
 #navbarCorpvision .nav-item .nav-link{
     font-weight: 600;
     font-size: 15px;
@@ -37,16 +48,14 @@ header{
     color: white;
     opacity: 1;
 }
-.header__search i{
-    width: 45px;
-    height: 45px;
-    background-color: #009f4d;
-    text-align: center;
-    line-height: 45px;
-    border-radius: 45px;
-    color: white;
+#navbarCorpvision .navbar-nav .nav-item.active .nav-link{
+    color: #fff;
+    opacity: 1;
 }
 
+#navbarCorpvision .nav-item{
+    position: relative;
+}
 #navbarCorpvision .dropdown-menu::after{
     content: '';
     width: 14px;
@@ -62,17 +71,11 @@ header{
     left: 49%;
     z-index: 1001;
 }
-
-#navbarCorpvision .nav-item{
-    position: relative;
-}
-
 #navbarCorpvision .dropdown-menu{
     position: absolute;
     left: -50px;
     border-radius: 8px;
-    padding: 1rem 1.5rem 1rem 0.2rem;
-    
+    padding: 1rem 1.5rem 1rem 0.2rem;   
 }
 #navbarCorpvision .dropdown-menu .dropdown-item{
     font-size: 15px;
@@ -80,11 +83,21 @@ header{
     font-weight: 600;
     color: #656182 ;
     transition: all .5s;
-}
-#navbarCorpvision .dropdown-menu .dropdown-item:active{
-    background: none;
-}
+}   
 #navbarCorpvision .dropdown-menu .dropdown-item:hover{
     background: none;
     color: black;
+}
+/* CAROUSEL */
+.carouselCorpVision{
+    position: relative;
+}
+.overlay{
+    background-color: rgba(29, 42, 55, 0.7);
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
 }
