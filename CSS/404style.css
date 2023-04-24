@@ -82,7 +82,7 @@ header{
     color: #656182 ;
     transition: all .5s;
 }
-#navbarCorpvision .dropdown-menu .dropdown-item:hover{
+#navbarCorpvision .dropdown-menu .pages__effect:hover{
     background: none;
     color: black;
 }

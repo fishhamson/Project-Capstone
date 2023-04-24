@@ -85,7 +85,7 @@ header{
     color: #656182 ;
     transition: all .5s;
 }
-#navbarCorpvision .dropdown-menu .dropdown-item:hover{
+#navbarCorpvision .dropdown-menu .elements__effect:hover{
     background: none;
     color: black;
 }
