@@ -26,6 +26,15 @@ header{
     font-weight: 600;
     color: white;
 }
+.header__search i{
+    width: 45px;
+    height: 45px;
+    background-color: #009f4d;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 45px;
+    color: white;
+}
 #navbarCorpvision .navbar-nav .nav-link{
     font-weight: 600;
     font-size: 15px;
@@ -38,16 +47,10 @@ header{
     color: white;
     opacity: 1;
 }
-.header__search i{
-    width: 45px;
-    height: 45px;
-    background-color: #009f4d;
-    text-align: center;
-    line-height: 45px;
-    border-radius: 45px;
-    color: white;
+#navbarCorpvision .dropdown-menu .dropdown-item.active{
+    color: #009f4d;
+    background: none;
 }
-
 #navbarCorpvision .dropdown-menu::after{
     content: '';
     width: 14px;
@@ -63,11 +66,9 @@ header{
     left: 49%;
     z-index: 1001;
 }
-
 #navbarCorpvision .nav-item{
     position: relative;
 }
-
 #navbarCorpvision .dropdown-menu{
     position: absolute;
     left: -50px;
@@ -80,9 +81,6 @@ header{
     font-weight: 600;
     color: #656182 ;
     transition: all .5s;
-}
-#navbarCorpvision .dropdown-menu .dropdown-item:active{
-    background: none;
 }
 #navbarCorpvision .dropdown-menu .dropdown-item:hover{
     background: none;
