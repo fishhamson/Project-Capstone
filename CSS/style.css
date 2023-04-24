@@ -68,6 +68,8 @@ header{
     position: absolute;
     left: -50px;
     border-radius: 8px;
+    padding: 1rem 1.5rem 1rem 0.2rem;
+    
 }
 #navbarCorpvision .dropdown-menu .dropdown-item{
     font-size: 15px;
