@@ -181,7 +181,7 @@ header{
     border: 1px solid transparent;
 }
 .arrow-prev{
-    left: 1780px;
+    left: 1770px;
 }
 
 .arrow i{
@@ -239,4 +239,40 @@ header{
 }
 .aboutUs__img2 .img__3 {
     margin-top: 30px;
+}
+/* CHANLLENGES */
+.challenges{
+    background-color:  #f7f7f7 ;
+}
+.challenges__content span{
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #7e7d7d;
+}
+.challenges__content h3{
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 700;
+}
+.challenges__content p{
+    color: #404040;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.challenges .challenges__content button{
+    padding: 15px 50px;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 18px;
+    border-radius: 8px;
+    background-color: #009f4d;
+    border-color: #009f4d;
+    color: #fff;
+} 
+.challenges .challenges__content button:focus{
+    color: #fff;
+    background-color: #008030;
+    border-color: #00732c;
+    box-shadow: 0 0 0 0.2rem rgba(38, 179, 92, 0.5);
 }
