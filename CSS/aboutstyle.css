@@ -119,9 +119,8 @@ header{
     position: absolute;
     text-align: center;
     top: 195px;
-    right: 750px;
     color: white;
-    z-index: 3;
+    z-index: 2;
 }
 
 .carousel__title h1{
