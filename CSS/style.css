@@ -92,6 +92,37 @@ header{
 .carouselCorpVision{
     position: relative;
 }
+.carousel-item{
+    position: relative;
+    min-height: 800px;
+    padding-bottom: 100px;
+    align-items: top;
+    
+}
+.bg1{
+    background-image: url(../images/home/b1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.bg2{
+    background-image: url(../images/home/b2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.bg3{
+    background-image: url(../images/home/b3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.bg4{
+    background-image: url(../images/home/b4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
 .overlay{
     background-color: rgba(29, 42, 55, 0.7);
     position: absolute;
@@ -101,13 +132,67 @@ header{
     height: 100%;
     z-index: 1;
 }
+.carousel-caption{
+    position: absolute;
+    top: 200px;
+    left: 380px;
+    color: white;
+    text-align: left;
+    align-items: center;
+}
+.carousel-caption h1{
+    font-size: 65px;
+    line-height: 1.1;
+    margin-bottom: 18px;
+    max-width: 800px;
+    font-weight: 600;
+}
+.carousel-caption p{
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 600px;
+    color: #fff;
+    letter-spacing: 0.010em;
+    opacity: .9;
+}
 .lightbar{
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
-    z-index: 100;
+    z-index: 10;
 }
 .lightbar path{
     fill: white;
+}
+.arrow{
+    position: absolute;
+    right: 25px;
+    top: 700px;
+    font-size: 0;
+    background-color: white;
+    border: 0;
+    width: 50px;
+    height: 50px;
+    z-index: 11;
+    outline: none;
+    border-radius: 100%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.12);
+    border: 1px solid transparent;
+}
+.arrow-prev{
+    left: 1725px;
+}
+
+.arrow i{
+    font-size: 16px;
+    text-align: center;
+    line-height: 46px;
+    color: #3f3a64;
+}
+.carousel-button .editor{
+    font-weight: 700;
+    background-size: 200%;
+    padding: 10px 50px;
+    border-radius: 8px;
 }
