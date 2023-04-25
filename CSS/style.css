@@ -181,7 +181,7 @@ header{
     border: 1px solid transparent;
 }
 .arrow-prev{
-    left: 1725px;
+    left: 1780px;
 }
 
 .arrow i{
@@ -195,4 +195,48 @@ header{
     background-size: 200%;
     padding: 10px 50px;
     border-radius: 8px;
+}
+
+/* ABOUT US */
+.aboutUs__content span{
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #7e7d7d;
+}
+.aboutUs__content h3{
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 700;
+}
+.aboutUs__content p{
+    color: #404040;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.aboutUs__chosen{
+    list-style: none;
+}
+.aboutUs__chosen a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+}
+.aboutUs__chosen span{
+    color: #009f4d;
+    margin-right: 5px;
+}
+.aboutUs__chosen .aboutUS__title{
+    margin-bottom: 10px;
+}
+
+.aboutUs__img1 img, .aboutUs__img2 img  {
+    border-radius: 10px;
+}
+.aboutUs__img2 .img__2 {
+    margin-top: 20px;
+}
+.aboutUs__img2 .img__3 {
+    margin-top: 30px;
 }
