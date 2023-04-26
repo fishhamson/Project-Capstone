@@ -181,7 +181,7 @@ header{
     border: 1px solid transparent;
 }
 .arrow-prev{
-    left: 1770px;
+    left: 1720px;
 }
 
 .arrow i{
@@ -319,6 +319,7 @@ header{
     font-size: 35px;
     font-weight: 700;
     line-height: 45px;
+    color: #3f3a64;
 }
 
 .services__content img{
@@ -371,4 +372,37 @@ header{
 .services__item a:focus:nth-of-type(2){
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(0, 166, 63, 0.25)
+}
+
+/* GALLERY */
+.gallery__title{
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+}
+.gallery__title p{
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #7e7d7d;
+    margin: 0;
+}
+.gallery__title h3{
+    font-size: 35px;
+    font-weight: 900px;
+    padding-bottom: 2rem;
+}
+.gallery__item{
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+.gallery__item img{
+    max-width: 100%;
+}
+.gallery__item:hover img{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
 }
