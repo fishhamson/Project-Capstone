@@ -276,3 +276,28 @@ header{
     border-color: #00732c;
     box-shadow: 0 0 0 0.2rem rgba(38, 179, 92, 0.5);
 }
+.challenges__right{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+.challenges__right .challenges__item{
+    background-color: white;
+    text-align: center;
+    padding: 40px 30px;
+    width: 100%;
+    border-radius: 8px;
+}
+.challenges__right .challenges__item a{
+    color: #3f3a64;
+    text-decoration: none;
+}
+.challenges__right .challenges__item h4{
+    margin-top: 25px;
+    line-height: 28px;
+    font-weight: 600;
+    font-size: 22px;
+
+}
+
