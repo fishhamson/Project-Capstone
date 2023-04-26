@@ -368,4 +368,7 @@ header{
 .services__item a:hover:nth-of-type(2){
     color: #009f4d;
 }
-.services__item a:focus:nth-of-type(2)
+.services__item a:focus:nth-of-type(2){
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 166, 63, 0.25)
+}
