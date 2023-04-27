@@ -774,3 +774,96 @@ header{
 .news .news__item:hover .news__img img{
     transform: scale(1.1);
 }
+/* FOOTER */
+.footer__top{
+    background-image: url(../images/home/map.png);
+    background-color: #151421;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.footer__title{
+    text-align: center;
+}
+.footer__title h3{
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 700;
+    color: #fff;
+}
+.footer__title p{
+    font-size: 17px;
+    color: #eee;
+    line-height: 27px;
+    opacity: .8;
+}
+.footer__content{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.footer__form{
+    display: grid;
+    grid-template-columns: 50px 1fr auto;
+    margin: auto;
+    width: 80%;
+}
+
+.footer__form .form__icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid  #ced4da;
+    border-color: rgba(255, 255, 255, 0.15);;
+    background-color:  rgba(0, 0, 0, 0.25);
+    color: #999;
+    padding: 1.375rem 0.75rem;
+    border-radius: 0.25rem;
+}
+.footer__form input{
+    background-color: rgba(0, 0, 0, 0.2);
+    border-color: rgba(255, 255, 255, 0.15);
+    outline: none;
+    color: white;
+    padding: 14px 20px;
+}
+
+.footer__form button{
+    padding: 0 25px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    font-size: 16px;
+    background-color: #00a63f;
+    border-color: #00a63f;
+    color: white;
+    transition: all .5s;
+}
+
+.footer__form button:hover{
+    background-color: #008030;
+    border-color: #00732c;
+}
+/* FOOTER BOTTOM */
+.footer__bottom{
+    background-color: #151421;
+    border-top: 1px solid rgba(249, 249, 249, 0.1);
+}
+
+.footer__bottom h6{
+    color: white;
+}
+
+.footer__bottom p, .footer__bottom a{
+    color: #97a1a9;
+    font-size: 18px;
+    line-height: 28px;
+    opacity: .8;
+}
+.footer__bottom a{
+    text-decoration: none;
+}
+.footer__bottom ul{
+    list-style: none;
+}
