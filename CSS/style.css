@@ -675,3 +675,102 @@ header{
     opacity: 1; 
     transform: scale(1.5);
 }
+
+/* NEWS */
+.news__title {
+    text-align: center;
+}
+.news .news__title h5{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #7e7d7d;
+}
+
+.news .news__title h3{
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 700;
+    color: #3f3a64;
+}
+.news__body{
+    padding: 1.25rem;
+}
+.news__content .news__body a{
+    text-decoration: none;
+    color: black;
+}
+
+.news__content .news__body p:first-of-type a{
+    font-weight: 400;
+    font-size: 17px;
+    color: #999;
+}
+
+.news__content .news__body p:last-of-type a{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    color:#3f3a64;
+    margin-top: 10px;
+    transition: all .5s;
+}
+.news__content .news__body p:hover:last-of-type a{
+    color: #009f4d;
+}
+.news__footer {
+    padding: 0.75rem 1.25rem;
+    border-top: 1px solid #eee;
+}
+.news__content .news__footer p:first-of-type,.news__content .news__footer p:last-of-type{
+    margin-bottom: 0;
+}
+
+.news__content .news__footer p:first-of-type{
+    color: rgba(102, 102, 102, 0.8);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.news .news__content .news__footer p:first-of-type span{
+    font-size: 16px;
+    color: #3f3a64;
+    font-weight: 600;
+    line-height: 26px;
+    transition: all .5s;
+    cursor: pointer;
+}
+.news .news__content .news__footer p:first-of-type span:hover{
+    color: #009f4d;
+}
+.news__content .news__footer p:last-of-type{
+    font-size: 15px;
+    color: #666;
+    opacity: .8;
+}
+.news__content .news__footer {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 10px;
+    align-items: center;
+}
+
+.news__item{
+    box-shadow: 0 25px 98px 0 rgba(0, 0, 0, 0.04);
+    border: 1px solid transparent;
+}
+
+.news .news__item .news__img{
+    overflow: hidden;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+.news .news__item .news__img img{
+    transform: scale(1);
+    transition: all .5s;
+}
+
+.news .news__item:hover .news__img img{
+    transform: scale(1.1);
+}
