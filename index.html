@@ -6,6 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Corp Vision</title>
+  <!-- LIGHT BOX -->
+  <link rel="stylesheet" href="./CSS/lightbox.min.css">
   <!-- ANIMATION CSS -->
   <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   <!-- OWL CAROUSEL -->
@@ -251,6 +253,7 @@
       <div class="gallery__content">
         <div class="row">
           <div class="col-lg-4 col-md-6">
+          <a href="./images/home/c1.jpg" data-lightbox="roadtrip">
             <div class="gallery__item">
               <img src="./images/home/c1.jpg">
               <div class="layer"></div>
@@ -259,8 +262,10 @@
                 <p>Quisque ut lectus, eros et, sed commodo risus.</p>
               </div> 
             </div>
+          </a>
           </div>
           <div class="col-lg-4 col-md-6">
+          <a href="./images/home/c2.jpg" data-lightbox="roadtrip">
             <div class="gallery__item">
               <img src="./images/home/c2.jpg">
               <div class="layer"></div>
@@ -269,8 +274,10 @@
                 <p>Quisque ut lectus, eros et, sed commodo risus.</p>
               </div> 
             </div>
+          </a>
           </div>
           <div class="col-lg-4 col-md-6">
+          <a href="./images/home/c3.jpg" data-lightbox="roadtrip">
             <div class="gallery__item">
               <img src="./images/home/c3.jpg">
               <div class="layer"></div>
@@ -279,8 +286,10 @@
                 <p>Quisque ut lectus, eros et, sed commodo risus.</p>
               </div> 
             </div>
+          </a>
           </div>
           <div class="mt-4 col-lg-4 col-md-6">
+          <a href="./images/home/c4.jpg" data-lightbox="roadtrip">
             <div class="gallery__item">
               <img src="./images/home/c4.jpg">
               <div class="layer"></div>
@@ -289,8 +298,10 @@
                 <p>Quisque ut lectus, eros et, sed commodo risus.</p>
               </div> 
             </div>
+          </a>
           </div>
           <div class="mt-4 col-lg-4 col-md-6">
+          <a href="./images/home/c5.jpg" data-lightbox="roadtrip">
             <div class="gallery__item">
               <img src="./images/home/c5.jpg">
               <div class="layer"></div>
@@ -299,8 +310,10 @@
                 <p>Quisque ut lectus, eros et, sed commodo risus.</p>
               </div> 
             </div>
+          </a>
           </div>
           <div class="mt-4 col-lg-4 col-md-6">
+          <a href="./images/home/c6.jpg" data-lightbox="roadtrip">
             <div class="gallery__item">
               <img src="./images/home/c6.jpg">
               <div class="layer"></div>
@@ -309,6 +322,7 @@
                 <p>Quisque ut lectus, eros et, sed commodo risus.</p>
               </div> 
             </div>
+          </a>
           </div>
         </div>
       </div>
@@ -611,6 +625,14 @@
     }
 })
     </script>
+    <!-- LIGHT BOX -->
+    <script src="./JS/lightbox.min.js"></script>
+    <script>
+      lightbox.option({
+        'resizeDuration': 200,
+        'wrapAround': true
+      })
+  </script>
 </body>
 
 </html>
