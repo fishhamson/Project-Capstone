@@ -85,40 +85,40 @@
       <div class="carousel-inner">
         <div class="carousel-item bg1 active">
           <div class="carousel-caption d-none d-md-block">
-            <h1 class="animate__animated animate__flipInX">We will solve your issues our vision to your future</h1>
-            <p class="animate__animated animate__fadeInDown" >Lorem ipsum dolor sit amet, elit, sed do eiusmod ut labore et
+            <h1 class="animate__animated animate__flipInX" data-delay="0.8s">We will solve your issues our vision to your future</h1>
+            <p class="animate__animated animate__fadeInUp" >Lorem ipsum dolor sit amet, elit, sed do eiusmod ut labore et
               dolore magna aliqua. Ut enim ad minim veniam, quis nisi ut ea.</p>
             <div class="carousel-button">
-              <button type="button" class="animate__animated animate__fadeInUp btn btn-success editor">Learn More</button>
+              <button type="button" class="animate__animated animate__fadeInDown btn btn-success editor" data-delay="1s">Learn More</button>
             </div>
           </div>
         </div>
         <div class="carousel-item bg2">
           <div class="carousel-caption d-none d-md-block">
-            <h1 class="animate__animated animate__flipInX">Embracing success do our best, need best advice</h1>
-            <p class="animate__animated animate__fadeInDown">Lorem ipsum dolor sit amet, elit, sed do eiusmod ut labore et
+            <h1 class="animate__animated animate__flipInX" data-delay="0.8s">Embracing success do our best, need best advice</h1>
+            <p class="animate__animated animate__fadeInUp">Lorem ipsum dolor sit amet, elit, sed do eiusmod ut labore et
               dolore magna aliqua. Ut enim ad minim veniam, quis nisi ut ea.</p>
             <div class="carousel-button">
-              <button type="button" class="animate__animated animate__fadeInUp btn btn-success editor">Get Started</button>
+              <button type="button" class="animate__animated animate__fadeInDown btn btn-success editor" data-delay="1s">Get Started</button>
             </div>
           </div>
         </div>
         <div class="carousel-item bg3">
           <div class="carousel-caption d-none d-md-block">
-            <h1 class="animate__animated animate__flipInX">Digital transformation driven by technology</h1>
-            <p class="animate__animated animate__fadeInDown">Lorem ipsum dolor sit amet, elit, sed do eiusmod ut labore et
+            <h1 class="animate__animated animate__flipInX" data-delay="0.8s">Digital transformation driven by technology</h1>
+            <p class="animate__animated animate__fadeInUp">Lorem ipsum dolor sit amet, elit, sed do eiusmod ut labore et
               dolore magna aliqua. Ut enim ad minim veniam, quis nisi ut ea.</p>
             <div class="carousel-button">
-              <button type="button" class="animate__animated animate__fadeInUp btn btn-success editor">Learn More</button>
+              <button type="button" class="animate__animated animate__fadeInUp btn btn-success editor" data-delay="1s">Learn More</button>
             </div>
           </div>
         </div>
         <div class="carousel-item bg4">
           <div class="carousel-caption d-none d-md-block">
-            <h1 class="animate__animated animate__flipInX">For those who believe in leaving a mark</h1>
-            <p class="animate__animated animate__fadeInDown">Some representative placeholder content for the third slide.</p>
+            <h1 class="animate__animated animate__flipInX" data-delay="0.8s">For those who believe in leaving a mark</h1>
+            <p class="animate__animated animate__fadeInUp">Some representative placeholder content for the third slide.</p>
             <div class="carousel-button">
-              <button type="button" class="animate__animated animate__fadeInUp btn btn-success editor">Contact Now</button>
+              <button type="button" class="animate__animated animate__fadeInUp btn btn-success editor" data-delay="1s">Contact Now</button>
             </div>
           </div>
         </div>
@@ -253,7 +253,7 @@
       <div class="gallery__content">
         <div class="row">
           <div class="col-lg-4 col-md-6">
-          <a href="./images/home/c1.jpg" data-lightbox="roadtrip">
+          <a href="./images/home/c1.jpg" data-title="Project 1" data-lightbox="roadtrip">
             <div class="gallery__item">
               <img src="./images/home/c1.jpg">
               <div class="layer"></div>
@@ -265,7 +265,7 @@
           </a>
           </div>
           <div class="col-lg-4 col-md-6">
-          <a href="./images/home/c2.jpg" data-lightbox="roadtrip">
+          <a href="./images/home/c2.jpg" data-title="Project 2" data-lightbox="roadtrip">
             <div class="gallery__item">
               <img src="./images/home/c2.jpg">
               <div class="layer"></div>
@@ -277,7 +277,7 @@
           </a>
           </div>
           <div class="col-lg-4 col-md-6">
-          <a href="./images/home/c3.jpg" data-lightbox="roadtrip">
+          <a href="./images/home/c3.jpg" data-title="Project 3" data-lightbox="roadtrip">
             <div class="gallery__item">
               <img src="./images/home/c3.jpg">
               <div class="layer"></div>
@@ -289,7 +289,7 @@
           </a>
           </div>
           <div class="mt-4 col-lg-4 col-md-6">
-          <a href="./images/home/c4.jpg" data-lightbox="roadtrip">
+          <a href="./images/home/c4.jpg" data-title="Project 4" data-lightbox="roadtrip">
             <div class="gallery__item">
               <img src="./images/home/c4.jpg">
               <div class="layer"></div>
@@ -301,7 +301,7 @@
           </a>
           </div>
           <div class="mt-4 col-lg-4 col-md-6">
-          <a href="./images/home/c5.jpg" data-lightbox="roadtrip">
+          <a href="./images/home/c5.jpg" data-title="Project 5" data-lightbox="roadtrip">
             <div class="gallery__item">
               <img src="./images/home/c5.jpg">
               <div class="layer"></div>
@@ -313,7 +313,7 @@
           </a>
           </div>
           <div class="mt-4 col-lg-4 col-md-6">
-          <a href="./images/home/c6.jpg" data-lightbox="roadtrip">
+          <a href="./images/home/c6.jpg" data-title="Project 6" data-lightbox="roadtrip">
             <div class="gallery__item">
               <img src="./images/home/c6.jpg">
               <div class="layer"></div>
@@ -629,7 +629,7 @@
     <script src="./JS/lightbox.min.js"></script>
     <script>
       lightbox.option({
-        'resizeDuration': 200,
+        'resizeDuration': 600,
         'wrapAround': true
       })
   </script>

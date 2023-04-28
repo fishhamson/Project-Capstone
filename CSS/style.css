@@ -452,7 +452,37 @@ header{
 .gallery__logo img{
     padding: 0 18px;
 }
-/* SUCCESS */
+
+.lb-data .lb-caption {
+    font-size: 16px;
+    line-height: 1.8em;
+    color: #fff;
+    font-weight: 600;
+}
+.lb-data .lb-number {
+    display: block;
+    clear: left;
+    padding-top: 1em;
+    font-size: 1em;
+    color: #009f4d;
+}
+.lb-data .lb-details {
+    width: 90%;
+    text-align: left;
+    line-height: 1.1em;
+    margin-top: 1em;
+}
+.lb-data .lb-close{
+    margin-top: 1em;
+}
+
+.animate__animated.animate__flipInX{
+    animation-delay: 0.8s;
+}
+.animate__animated.animate__fadeInDown{
+    animation-delay: 1s; 
+}
+    /* SUCCESS */
 .success__img img{
     border-radius: 8px;
     height: 100%;
