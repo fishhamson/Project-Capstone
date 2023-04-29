@@ -482,6 +482,7 @@ header{
 .animate__animated.animate__fadeInDown{
     animation-delay: 1s; 
 }
+
     /* SUCCESS */
 .success__img img{
     border-radius: 8px;
