@@ -134,3 +134,197 @@ header{
     opacity: 0.7;
 }
 /* ABOUT US */
+.aboutUs_left{
+    position: relative;
+}
+.aboutUs__left img{
+   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+}
+
+.aboutUs__left .shadow{
+    background-color: #009f4d;
+    width: 500px;
+    height: 500px;
+    border-radius: 25% 70% 84% 22% / 42% 75% 25% 75%;
+    opacity: .4;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+.aboutUs__left .aboutUs__box{
+    position: absolute;
+    right: 85px;
+    bottom: 10px;
+    background-color: #009f4d; 
+    color: #fff;
+    padding: 35px;
+    box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.2);
+    min-height: 200px;
+    min-width: 200px;
+    text-align: center;
+    border-radius: 8px;
+    transform: rotate(45deg);
+}
+.aboutUs__left .aboutUs__box .aboutUs__content{
+    transform: rotate(-45deg);
+}
+.aboutUs__left .aboutUs__box .aboutUs__content h6{
+    font-size: 40px;
+    line-height: 40px;
+    color: #fff;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.aboutUs__left .aboutUs__box .aboutUs__content p{
+    font-size: 24px;
+    line-height: 28px;
+    opacity: .8;
+}
+.aboutUs__right h5{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #7e7d7d;
+}
+.aboutUs__right h3{
+    font-weight: 700;
+    color: #3f3a64;
+    line-height: 45px;
+    font-size: 35px;
+}
+.aboutUs__right p{
+    color: #666;
+    opacity: .8;
+    font-size: 17px;
+    line-height: 27px;
+}
+.aboutUs .aboutUs__right .btn{
+    padding: 15px 50px;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    background-color: #00a63f;
+    border-color: #00a63f;
+}
+.aboutUs .aboutUs__right .btn:active{
+    background-color: #00732c;
+    border-color: #006627
+}
+.aboutUs .aboutUs__right .btn:focus{
+    background-color: #008030;
+    border-color: #00732c;
+    box-shadow: 0 0 0 0.2rem rgba(38, 179, 92, 0.5);
+}
+
+/* POPUP VIDEO */
+#small-dialog {
+    max-width: 750px;
+    margin: 40px auto;
+    position: relative;
+  }
+  div#small-dialog iframe {
+    width: 100%;
+    height: 420px;
+    display: block;
+    border-radius: 10px;
+  }
+  .mfp-close-btn-in .mfp-close {
+    color: #fff;
+  }
+  .mfp-close,
+  .mfp-close:active {
+    top: -40px;
+  }
+  
+  /**
+     * Fade-zoom animation for first dialog
+     */
+  /* start state */
+  .my-mfp-zoom-in .zoom-anim-dialog {
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+    transform: scale(0.8);
+  }
+  
+  /* animate in */
+  .my-mfp-zoom-in.mfp-ready .zoom-anim-dialog {
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+  /* animate out */
+  .my-mfp-zoom-in.mfp-removing .zoom-anim-dialog {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  
+  /* Dark overlay, start state */
+  .my-mfp-zoom-in.mfp-bg {
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+  }
+  
+  /* animate in */
+  .my-mfp-zoom-in.mfp-ready.mfp-bg {
+    opacity: 0.95;
+  }
+  
+  /* animate out */
+  .my-mfp-zoom-in.mfp-removing.mfp-bg {
+    opacity: 0;
+  }
+  
+  .aboutUs__popup{
+    display: inline-block;
+  }
+  .aboutUs__right .aboutUs__popup span.fa{
+        color: #009f4d;
+        font-size: 22px;
+        line-height: 65px;
+        color: transparent;
+        -webkit-text-stroke-width: 3px;
+        -webkit-text-stroke-color: #009f4d;
+  }
+
+  .aboutUs__popup span.video-play-icon{
+    display: block;
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 3px solid #009f4d;
+    text-align: center;
+  }
+
+  .aboutUs__comment .aboutUs__box{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 20px;
+    background-color: #f8f9fa;
+    padding: 50px 35px;
+    border-radius: 8px;
+  }
+
+  .aboutUs__comment .aboutUs__box i{
+    font-size: 38px;
+    width: 40px;
+    color: #009f4d;
+  }
+
+  .aboutUs__comment .aboutUs__box .aboutUs__title a{
+    text-decoration: none;
+    color: #3f3a64;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+  }
+
+  .aboutUs__comment .aboutUs__box .aboutUs__title p{
+    font-size: 17px;
+    line-height: 27px;
+    color: #666;
+    opacity: .8;
+  }
