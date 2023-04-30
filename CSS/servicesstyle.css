@@ -132,3 +132,114 @@ header{
     font-size: 20px;
     opacity: 0.7;
 }
+
+/* SERVICES */
+.services{
+    text-align: center;
+    background-color: #f7f7f7;
+}
+.services__title p{
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #7e7d7d;
+}
+.services__title h3{
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 700;
+    color: #3f3a64;
+}
+.services__item .row{
+    align-items: center;
+}
+.services__box{
+    background-color: white;
+    padding: 45px 50px;
+}
+.services__logo img{
+    width: 50px;
+    margin-bottom: 1rem;
+}
+.services__content h3{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    color: #3f3a64;
+    margin-bottom: 1.5rem;
+}
+.services__content p{
+    color: #7e7d7d;
+    margin-bottom: .5rem;
+}
+.services__item button{
+    padding: 15px 50px;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    margin-top: 1.5rem;
+}
+.services__img{
+    max-width: 100%;
+}
+
+/* SOLUTION */
+.solution{
+    background-color: white;
+}
+.solution__title{
+    text-align: center;
+}
+.solution__title p{
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #7e7d7d;
+    margin-bottom: 0;
+}
+.solution__title h3{
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 700;
+    color: #3f3a64;
+    margin-bottom: 0;
+}
+.solution__box{
+    padding: 50px 35px;
+    position: relative;
+    z-index: 1;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 20px;
+}
+.solution__icon{
+    text-align: center;
+}
+.solution__box i{
+    font-size: 38px;
+    width: 40px;
+    color: #009f4d;
+}
+.solution__info a{
+    color: #3f3a64;
+    font-size: 22px;
+    letter-spacing: 0;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+.solution__info p{
+    color: #666;
+}
+.solution__info a:hover{
+    color: #009f4d;
+}

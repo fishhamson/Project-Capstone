@@ -1,93 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Corp Vision</title>
-    <!-- BS V4.6 -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <!-- FONT AWESOME -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- FONT GG -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;600&display=swap" rel="stylesheet">
-    <!-- MAIN CSS -->
-    <link rel="stylesheet" href="../CSS/servicesstyle.css">
-</head>
-<body>
-    <!-- HEADER -->
-    <header class="py-3">
-        <nav class="navbar navbar-expand-lg container">
-            <a class="header__title navbar-brand" href="#">
-                <h1 class=" mb-0"><span class="fa fa-align-right"></span> Corp Vision</h1>
-                <h4 class=" mb-0">Vision to your future</h4>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCorpvision" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
 
-            <div class="collapse navbar-collapse" id="navbarCorpvision">
-              <ul class="navbar-nav mx-auto">
-                <li class="nav-item ">
-                  <a class="nav-link" href="../index.html">HOME <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../Pages/about.html">ABOUT</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="../Pages/services.html">SERVICES</a>
-                  </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                    PAGES
-                  </a>
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item" href="../Pages/blogposts.html">BLOG POST</a>
-                    <a class="dropdown-item" href="../Pages/404.html">404 PAGES</a>
-                    <a class="dropdown-item" href="../Pages/landing.html">LANDING PAGE</a>
-                    <a class="dropdown-item" href="../Pages/elements.html">ELEMENTS PAGE</a>
-                  </div>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../Pages/contact.html">CONTACT</a>
-                </li>
-              </ul>
-              <!-- <form class="form-inline my-2 my-lg-0">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Corp Vision</title>
+  <!-- BS V4.6 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- FONT GG -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;600&display=swap" rel="stylesheet">
+  <!-- MAIN CSS -->
+  <link rel="stylesheet" href="../CSS/servicesstyle.css">
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header class="py-3">
+    <nav class="navbar navbar-expand-lg container">
+      <a class="header__title navbar-brand" href="#">
+        <h1 class=" mb-0"><span class="fa fa-align-right"></span> Corp Vision</h1>
+        <h4 class=" mb-0">Vision to your future</h4>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCorpvision"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarCorpvision">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item ">
+            <a class="nav-link" href="../index.html">HOME <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Pages/about.html">ABOUT</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="../Pages/services.html">SERVICES</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+              PAGES
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="../Pages/blogposts.html">BLOG POST</a>
+              <a class="dropdown-item" href="../Pages/404.html">404 PAGES</a>
+              <a class="dropdown-item" href="../Pages/landing.html">LANDING PAGE</a>
+              <a class="dropdown-item" href="../Pages/elements.html">ELEMENTS PAGE</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Pages/contact.html">CONTACT</a>
+          </li>
+        </ul>
+        <!-- <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
               </form> -->
-            </div>
+      </div>
 
-            <div class="header__search">
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </div>
-          </nav>
-    </header>
-    <!-- CAROUSEL -->
-    <section class="carouselCorpVision">
-      <div class="overlay"></div>
-      <div class="container">
-              <div class="carousel__title container">
+      <div class="header__search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+    </nav>
+  </header>
+  <!-- CAROUSEL -->
+  <section class="carouselCorpVision">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="carousel__title container">
         <h1>Services</h1>
         <p>We work with bold brands that we believe in</p>
       </div>
+    </div>
+  </section>
+  <!-- SERVICES -->
+  <section class="services py-5">
+    <div class="services__title container py-5">
+      <p>CHECK OUR SERVICES</p>
+      <h3>Introduce our best and reliable services for <br> all your business</h3>
+    </div>
+    <div class="services__item container">
+      <div class="row">
+        <div class="col-lg-6 p-3">
+          <div class="services__box">
+            <div class="services__logo">
+              <img src="../images/services/icon1.png">
+            </div>
+            <div class="services__content">
+              <h3>Product Design</h3>
+              <p>Aurabitur id gravida risus. Fusce eget ex , ultricies nisi ac sed, lacinia est. Quisque ut lectus, eros
+                et, sed risus. Nullam sit amet laoreet elit. non init magnaa velit, dolor eget ex.</p>
+            </div>
+            <button type="button" class="btn btn-success">Know more</button>
+          </div>
+        </div>
+        <div class="col-lg-6 p-3">
+          <img class="services__img" src="../images/services/s1.jpg">
+        </div>
+        <div class="col-lg-6 p-3">
+          <img class="services__img" src="../images/services/s2.jpg">
+        </div>
+        <div class="col-lg-6 p-3">
+          <div class="services__box">
+            <div class="services__logo">
+              <img src="../images/services/icon2.png">
+            </div>
+            <div class="services__content">
+              <h3>E-commerce Design</h3>
+              <p>Aurabitur id gravida risus. Fusce eget ex , ultricies nisi ac sed, lacinia est. Quisque ut lectus, eros
+                et, sed risus. Nullam sit amet laoreet elit. non init magnaa velit, dolor eget ex.</p>
+            </div>
+            <button type="button" class="btn btn-success">Know more</button>
+          </div>
+        </div>
       </div>
-    </section>
-    <!-- SERVICES -->
-    <section class="services"></section>
-    <!-- SOLUTION -->
-    <section class="solution"></section>
-    <!-- CONTACT -->
-    <section class="contact"></section>
-    <!-- RESULTS -->
-    <section class="results"></section>
-    <!-- FOOTER -->
-    <footer></footer>
-    <!-- JQuery Library -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <!-- BS LIBRARY -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    </div>
+  </section>
+  <!-- SOLUTION -->
+  <section class="solution container py-5">
+    <div class="solution__title mb-5">
+      <p>BEAUTIFULLY CRAFTED CREATIVE SOLUTIONS</p>
+      <h3 class="mx-lg-5">What industries we serve?</h3>
+    </div>
+    <div class="solution__item">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 p-3">
+          <div class="solution__box">
+              <div class="solution__icon">
+                <i class="fa-regular fa-money-bill-1"></i>
+              </div>
+              <div class="solution__info">
+                <h4><a href="#">Investment Planning</a></h4>
+                <p>Amus a ligula quam tesque et ut justo, Duis sed dolor et amet.</p>
+              </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 p-3">
+          <div class="solution__box">
+              <div class="solution__icon">
+                <i class="fa-regular fa-file-lines"></i>
+              </div>
+              <div class="solution__info">
+                <h4><a href="#">Commercial Projects</a></h4>
+                <p>Amus a ligula quam tesque et ut justo, Duis sed dolor et amet.</p>
+              </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 p-3">
+          <div class="solution__box">
+              <div class="solution__icon col-4 p-0">
+                <i class="fa-solid fa-building"></i>
+              </div>
+              <div class="solution__info">
+                <h4><a href="#">Banking & Finance</a></h4>
+                <p>Amus a ligula quam tesque et ut justo, Duis sed dolor et amet.</p>
+              </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 p-3">
+          <div class="solution__box">
+              <div class="solution__icon">
+                <i class="fa fa-clone"></i>
+              </div>
+              <div class="solution__info">
+                <h4><a href="#">Competitive Research</a></h4>
+                <p>Amus a ligula quam tesque et ut justo, Duis sed dolor et amet.</p>
+              </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 p-3">
+          <div class="solution__box">
+              <div class="solution__icon">
+                <i class="fa-solid fa-code"></i>
+              </div>
+              <div class="solution__info">
+                <h4><a href="#">International Business</a></h4>
+                <p>Amus a ligula quam tesque et ut justo, Duis sed dolor et amet.</p>
+              </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 p-3">
+          <div class="solution__box">
+              <div class="solution__icon">
+                <i class="fa-solid fa-chart-column"></i>
+              </div>
+              <div class="solution__info">
+                <h4><a href="#">Strategic Approach</a></h4>
+                <p>Amus a ligula quam tesque et ut justo, Duis sed dolor et amet.</p>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- CONTACT -->
+  <section class="contact"></section>
+  <!-- RESULTS -->
+  <section class="results"></section>
+  <!-- FOOTER -->
+  <footer></footer>
+  <!-- JQuery Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+    integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- BS LIBRARY -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
