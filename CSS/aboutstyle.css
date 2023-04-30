@@ -303,7 +303,7 @@ header{
     grid-auto-flow: column;
     gap: 20px;
     background-color: #f8f9fa;
-    padding: 50px 35px;
+    padding: 50px 20px;
     border-radius: 8px;
   }
 
@@ -314,12 +314,18 @@ header{
   }
 
   .aboutUs__comment .aboutUs__box .aboutUs__title a{
+    display: block;
     text-decoration: none;
     color: #3f3a64;
     font-weight: 600;
     font-size: 22px;
     line-height: 1.2;
     margin-bottom: 15px;
+    transition: all .5s;
+  }
+
+  .aboutUs__comment .aboutUs__box .aboutUs__title a:hover{
+    color: #009f4d;
   }
 
   .aboutUs__comment .aboutUs__box .aboutUs__title p{
@@ -328,3 +334,141 @@ header{
     color: #666;
     opacity: .8;
   }
+
+  /* MARKETING */
+
+.marketing{
+    background-color: #f8f9fa;
+}
+.marketing .marketing__col1 h6{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #7e7d7d;
+    display: block;
+}
+.marketing .marketing__col1 h3{
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 700;
+    color: #3f3a64;
+}
+.marketing .marketing__col1 .marketing__exp{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.marketing .marketing__col1 .marketing__exp .marketing__clients span{
+    color: #009f4d;
+    font-size: 35px;
+    margin-bottom: 15px;
+    display: block;
+}
+.marketing .marketing__col1 .marketing__exp .marketing__clients h4{
+    margin-bottom: 12px;
+    font-size: 22px;
+    line-height: 28px;
+    color: #3f3a64;
+    display: inline-block;
+    font-weight: 600;
+}
+.marketing .marketing__col1 .marketing__exp .marketing__clients p{
+    font-size: 17px;
+    line-height: 27px;
+    color: #666;
+    opacity: .8;
+}
+
+.marketing .marketing__col1 .marketing__exp .marketing__projects span{
+    color: #009f4d;
+    font-size: 35px;
+    margin-bottom: 15px;
+    display: block;
+}
+.marketing .marketing__col1 .marketing__exp .marketing__projects h4{
+    margin-bottom: 12px;
+    font-size: 22px;
+    line-height: 28px;
+    color: #3f3a64;
+    display: inline-block;
+    font-weight: 600;
+}
+.marketing .marketing__col1 .marketing__exp .marketing__projects p{
+    font-size: 17px;
+    line-height: 27px;
+    color: #666;
+    opacity: .8;
+}
+
+.marketing__col2 img{
+    border-radius: 8px;
+}
+
+/* CREATIVE */
+.creative{
+    background-image: url(../images/about/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+}
+
+.creative__layer{
+    background-color: rgba(29, 42, 55, 0.7);
+    position: absolute;
+    top: 0;
+    min-height: 100%;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.heading{
+    max-width: 700px;
+}
+
+.creative__text{
+    z-index: 2;
+}
+
+.creative__text h3{
+    color: #fff;
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 700;
+}
+
+.creative__text p{
+    font-size: 17px;
+    line-height: 27px;
+    color: #eee;
+    opacity: .8;
+}
+
+/* POPUP_CREATIVE */
+.creative__popup span.video-play-icon {
+    color: #fff;
+    border: 3px solid #fff;
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    transform: scale(1);
+    transition: all .5s;
+}   
+
+.creative__popup span.fa{
+    font-size: 22px;
+    -webkit-text-stroke-width: 3px;
+    color: transparent;
+    -webkit-text-stroke-color: #fff;
+}
+
+.creative__popup span.video-play-icon:hover{
+    transform: scale(1.1);
+}
