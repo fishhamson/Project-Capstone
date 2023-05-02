@@ -220,3 +220,68 @@ header{
 .footer__copyright a:hover{
     color: white;
 }
+
+/* ERROR */
+.main__cover{
+    max-width: 850px;
+    margin: auto;
+}
+.main__cover img{
+    max-width: 80%;
+}
+.main__cover h3{
+    font-size: 120px;
+    line-height: 1;
+    text-align: center;
+    color: #009f4d;
+    display: inline-block;
+    font-weight: 700;
+}
+.main__cover h5{
+    font-size: 26px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 36px;
+    margin: 16px 0 18px 0;
+}
+.main__cover p{
+    font-size: 17px;
+    line-height: 27px;
+    color: #666;
+    opacity: .8;
+}
+.search-form{
+    position: relative;
+    width: 100%;
+}
+.form-control{
+    max-width: 100%;
+    color: #666;
+    background: white;
+    padding: 12px 135px 12px 17px;
+    font-size: 18px;
+    height: 55px;
+    border: 1px solid #eee;
+    font-style: italic;
+    display: block;
+}
+.main__cover button{
+    color: #fff;
+    font-size: 16px;
+    width: 60px;
+    letter-spacing: 0px;
+    border: none;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    bottom: 1px;
+    display: inline-block;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background: #009f4d;
+}
+.back-button{
+    font-weight: 600;
+    font-size: 18px;
+    color: #3f3a64;
+}
