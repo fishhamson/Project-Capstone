@@ -84,10 +84,6 @@ header{
     color: #656182 ;
     transition: all .5s;
 }   
-#navbarCorpvision .dropdown-menu .dropdown-item:hover{
-    background: none;
-    color: black;
-}
 /* CAROUSEL */
 .carouselCorpVision{
     position: relative;
@@ -181,9 +177,8 @@ header{
     border: 1px solid transparent;
 }
 .arrow-prev{
-    left: 1720px;
+    left: 1764px;
 }
-
 .arrow i{
     font-size: 16px;
     text-align: center;
