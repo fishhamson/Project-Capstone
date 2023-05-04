@@ -9,7 +9,7 @@
   <!-- LIGHT BOX -->
   <link rel="stylesheet" href="./CSS/lightbox.min.css">
   <!-- ANIMATION CSS -->
-  <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <!-- OWL CAROUSEL -->
   <link rel="stylesheet" href="./CSS/owl.carousel.min.css">
   <link rel="stylesheet" href="./CSS/owl.theme.default.css">
@@ -24,6 +24,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;600&display=swap" rel="stylesheet">
+  <!-- SLICK CAROUSEL -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+    integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- MAIN CSS -->
   <link rel="stylesheet" href="./CSS/style.css">
 </head>
@@ -79,64 +86,60 @@
     </nav>
   </header>
   <!-- CAROUSEL -->
-  <section class="carouselCorpVision mb-5">
-    <div id="carouselCorpVision" class="carousel slide" data-ride="carousel">
-      <div class="overlay"></div>
-      <div class="carousel-inner">
-        <div class="carousel-item bg1 active">
-          <div class="carousel-caption d-none d-md-block">
-            <h1 class="animate__animated animate__flipInX" data-delay="0.8s">We will solve your issues our vision to your future</h1>
-            <p class="animate__animated animate__fadeInUp" >Lorem ipsum dolor sit amet, elit, sed do eiusmod ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nisi ut ea.</p>
-            <div class="carousel-button">
-              <button type="button" class="animate__animated animate__fadeInDown btn btn-success editor" data-delay="1s">Learn More</button>
+  <div class="carousel">
+    <div class="carousel__slider banner">
+      <div class="slick__slider">
+        <div class="carousel__item bg1">
+          <div class="container">
+            <div class="carousel__content">
+              <h1>We will solve your issues our vision to your future</h1>
+              <p>Lorem ipsum dolor sit amet, elit, sed do eiusmod ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nisi ut ea. </p>
             </div>
+            <button type="button" class="btn btn-success">Learn More</button>
           </div>
-        </div>
-        <div class="carousel-item bg2">
-          <div class="carousel-caption d-none d-md-block">
-            <h1 class="animate__animated animate__flipInX" data-delay="0.8s">Embracing success do our best, need best advice</h1>
-            <p class="animate__animated animate__fadeInUp">Lorem ipsum dolor sit amet, elit, sed do eiusmod ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nisi ut ea.</p>
-            <div class="carousel-button">
-              <button type="button" class="animate__animated animate__fadeInDown btn btn-success editor" data-delay="1s">Get Started</button>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item bg3">
-          <div class="carousel-caption d-none d-md-block">
-            <h1 class="animate__animated animate__flipInX" data-delay="0.8s">Digital transformation driven by technology</h1>
-            <p class="animate__animated animate__fadeInUp">Lorem ipsum dolor sit amet, elit, sed do eiusmod ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nisi ut ea.</p>
-            <div class="carousel-button">
-              <button type="button" class="animate__animated animate__fadeInDown btn btn-success editor" data-delay="1s">Learn More</button>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item bg4">
-          <div class="carousel-caption d-none d-md-block">
-            <h1 class="animate__animated animate__flipInX" data-delay="0.8s">For those who believe in leaving a mark</h1>
-            <p class="animate__animated animate__fadeInUp">Lorem ipsum dolor sit amet, elit, sed do eiusmod ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nisi ut ea.</p>
-            <div class="carousel-button">
-              <button type="button" class="animate__animated animate__fadeInDown btn btn-success editor" data-delay="1s">Contact Now</button>
-            </div>
-          </div>
+          <div class="overlay"></div>
         </div>
       </div>
-      <button class="carousel-control-prev arrow arrow-prev" type="button" data-target="#carouselCorpVision"
-        data-slide="prev">
-        <span aria-hidden="true">
-          <i class="fa-solid fa-arrow-left fa-2xl"></i>
-        </span>
-        <span class="sr-only">Previous</span>
-      </button>
-      <button class="carousel-control-next arrow" type="button" data-target="#carouselCorpVision" data-slide="next">
-        <span aria-hidden="true">
-          <i class="fa-solid fa-arrow-right fa-2xl"></i>
-        </span>
-        <span class="sr-only">Next</span>
-      </button>
+      <div class="slick__slider">
+        <div class="carousel__item bg2">
+          <div class="container">
+            <div class="carousel__content">
+              <h1>Embracing success do our best, need best advice</h1>
+              <p>Lorem ipsum dolor sit amet, elit, sed do eiusmod ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nisi ut ea. </p>
+            </div>
+            <button type="button" class="btn btn-success">Get Started</button>
+          </div>
+          <div class="overlay"></div>
+        </div>
+      </div>
+      <div class="slick__slider">
+        <div class="carousel__item bg3">
+          <div class="container">
+            <div class="carousel__content">
+              <h1>Digital transformation driven by technology</h1>
+              <p>Lorem ipsum dolor sit amet, elit, sed do eiusmod ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nisi ut ea. </p>
+            </div>
+            <button type="button" class="btn btn-success">Learn Mor</button>
+          </div>
+          <div class="overlay"></div>
+        </div>
+      </div>
+      <div class="slick__slider">
+        <div class="carousel__item bg4">
+          <div class="container">
+            <div class="carousel__content">
+              <h3>For those who believe in leaving a mark</h3>
+              <p>Lorem ipsum dolor sit amet, elit, sed do eiusmod ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nisi ut ea. </p>
+            </div>
+            <button type="button" class="btn btn-success">Contact Now</button>
+          </div>
+          <div class="overlay"></div>
+        </div>
+      </div>
     </div>
     <div class="lightbar">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 280">
@@ -148,7 +151,7 @@
         </path>
       </svg>
     </div>
-  </section>
+  </div>
   <!-- ABOUT US -->
   <section class="aboutUs py-5">
     <div class="container py-5">
@@ -254,87 +257,87 @@
       <div class="gallery__content">
         <div class="row">
           <div class="col-lg-4 col-md-6">
-          <a href="./images/home/c1.jpg" data-title="Project 1" data-lightbox="roadtrip">
-            <div class="gallery__item">
-              <img src="./images/home/c1.jpg">
-              <div class="layer"></div>
-              <div class="gallery__text">
-                <h3>Project </h3>
-                <p>Quisque ut lectus, eros et, sed commodo risus.</p>
-              </div> 
-            </div>
-          </a>
+            <a href="./images/home/c1.jpg" data-title="Project 1" data-lightbox="roadtrip">
+              <div class="gallery__item">
+                <img src="./images/home/c1.jpg">
+                <div class="layer"></div>
+                <div class="gallery__text">
+                  <h3>Project </h3>
+                  <p>Quisque ut lectus, eros et, sed commodo risus.</p>
+                </div>
+              </div>
+            </a>
           </div>
           <div class="col-lg-4 col-md-6">
-          <a href="./images/home/c2.jpg" data-title="Project 2" data-lightbox="roadtrip">
-            <div class="gallery__item">
-              <img src="./images/home/c2.jpg">
-              <div class="layer"></div>
-              <div class="gallery__text">
-                <h3>Project </h3>
-                <p>Quisque ut lectus, eros et, sed commodo risus.</p>
-              </div> 
-            </div>
-          </a>
+            <a href="./images/home/c2.jpg" data-title="Project 2" data-lightbox="roadtrip">
+              <div class="gallery__item">
+                <img src="./images/home/c2.jpg">
+                <div class="layer"></div>
+                <div class="gallery__text">
+                  <h3>Project </h3>
+                  <p>Quisque ut lectus, eros et, sed commodo risus.</p>
+                </div>
+              </div>
+            </a>
           </div>
           <div class="col-lg-4 col-md-6">
-          <a href="./images/home/c3.jpg" data-title="Project 3" data-lightbox="roadtrip">
-            <div class="gallery__item">
-              <img src="./images/home/c3.jpg">
-              <div class="layer"></div>
-              <div class="gallery__text">
-                <h3>Project </h3>
-                <p>Quisque ut lectus, eros et, sed commodo risus.</p>
-              </div> 
-            </div>
-          </a>
+            <a href="./images/home/c3.jpg" data-title="Project 3" data-lightbox="roadtrip">
+              <div class="gallery__item">
+                <img src="./images/home/c3.jpg">
+                <div class="layer"></div>
+                <div class="gallery__text">
+                  <h3>Project </h3>
+                  <p>Quisque ut lectus, eros et, sed commodo risus.</p>
+                </div>
+              </div>
+            </a>
           </div>
           <div class="mt-4 col-lg-4 col-md-6">
-          <a href="./images/home/c4.jpg" data-title="Project 4" data-lightbox="roadtrip">
-            <div class="gallery__item">
-              <img src="./images/home/c4.jpg">
-              <div class="layer"></div>
-              <div class="gallery__text">
-                <h3>Project </h3>
-                <p>Quisque ut lectus, eros et, sed commodo risus.</p>
-              </div> 
-            </div>
-          </a>
+            <a href="./images/home/c4.jpg" data-title="Project 4" data-lightbox="roadtrip">
+              <div class="gallery__item">
+                <img src="./images/home/c4.jpg">
+                <div class="layer"></div>
+                <div class="gallery__text">
+                  <h3>Project </h3>
+                  <p>Quisque ut lectus, eros et, sed commodo risus.</p>
+                </div>
+              </div>
+            </a>
           </div>
           <div class="mt-4 col-lg-4 col-md-6">
-          <a href="./images/home/c5.jpg" data-title="Project 5" data-lightbox="roadtrip">
-            <div class="gallery__item">
-              <img src="./images/home/c5.jpg">
-              <div class="layer"></div>
-              <div class="gallery__text">
-                <h3>Project </h3>
-                <p>Quisque ut lectus, eros et, sed commodo risus.</p>
-              </div> 
-            </div>
-          </a>
+            <a href="./images/home/c5.jpg" data-title="Project 5" data-lightbox="roadtrip">
+              <div class="gallery__item">
+                <img src="./images/home/c5.jpg">
+                <div class="layer"></div>
+                <div class="gallery__text">
+                  <h3>Project </h3>
+                  <p>Quisque ut lectus, eros et, sed commodo risus.</p>
+                </div>
+              </div>
+            </a>
           </div>
           <div class="mt-4 col-lg-4 col-md-6">
-          <a href="./images/home/c6.jpg" data-title="Project 6" data-lightbox="roadtrip">
-            <div class="gallery__item">
-              <img src="./images/home/c6.jpg">
-              <div class="layer"></div>
-              <div class="gallery__text">
-                <h3>Project </h3>
-                <p>Quisque ut lectus, eros et, sed commodo risus.</p>
-              </div> 
-            </div>
-          </a>
+            <a href="./images/home/c6.jpg" data-title="Project 6" data-lightbox="roadtrip">
+              <div class="gallery__item">
+                <img src="./images/home/c6.jpg">
+                <div class="layer"></div>
+                <div class="gallery__text">
+                  <h3>Project </h3>
+                  <p>Quisque ut lectus, eros et, sed commodo risus.</p>
+                </div>
+              </div>
+            </a>
           </div>
         </div>
       </div>
       <div class="gallery__brand">
         <div class="gallery__logo row justify-content-center pt-5 mt-5">
-            <div class="col-2"><img class="img-fluid" src="./images/home/brand1.png" alt=""></div>
-            <div class="col-2"><img class="img-fluid" src="./images/home/brand6.png" alt=""></div>
-            <div class="col-2"><img class="img-fluid" src="./images/home/brand3.png" alt=""></div>
-            <div class="col-2"><img class="img-fluid" src="./images/home/brand4.png" alt=""></div>
-            <div class="col-2"><img class="img-fluid" src="./images/home/brand5.png" alt=""></div>    
-      </div>
+          <div class="col-2"><img class="img-fluid" src="./images/home/brand1.png" alt=""></div>
+          <div class="col-2"><img class="img-fluid" src="./images/home/brand6.png" alt=""></div>
+          <div class="col-2"><img class="img-fluid" src="./images/home/brand3.png" alt=""></div>
+          <div class="col-2"><img class="img-fluid" src="./images/home/brand4.png" alt=""></div>
+          <div class="col-2"><img class="img-fluid" src="./images/home/brand5.png" alt=""></div>
+        </div>
       </div>
     </div>
   </section>
@@ -351,35 +354,39 @@
           <div class="success__progress">
             <div class="progress__info info1">
               <h6 class="progress__tittle">
-              Marketing <span class="">80%</span></h6>
+                Marketing <span class="">80%</span></h6>
               <div class="progress">
-                  <div class="progress-bar progress-bar-striped gradient-1" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                  </div>
+                <div class="progress-bar progress-bar-striped gradient-1" role="progressbar" style="width: 80%"
+                  aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                </div>
               </div>
             </div>
             <div class="progress__info info2">
-            <h6 class="progress__tittle">
-            Responsive Web design <span class="">95%</span>
-            </h6>
-            <div class="progress">
-                <div class="progress-bar progress-bar-striped gradient-2" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+              <h6 class="progress__tittle">
+                Responsive Web design <span class="">95%</span>
+              </h6>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped gradient-2" role="progressbar" style="width: 95%"
+                  aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
                 </div>
-            </div>
+              </div>
             </div>
             <div class="progress__info info3">
               <h6 class="progress__tittle">
-              Analytics <span class="">60%</span></h6>
+                Analytics <span class="">60%</span></h6>
               <div class="progress">
-                  <div class="progress-bar progress-bar-striped gradient-3" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-                  </div>
+                <div class="progress-bar progress-bar-striped gradient-3" role="progressbar" style="width: 60%"
+                  aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                </div>
               </div>
             </div>
             <div class="progress__info info4 mb-0">
               <h6 class="progress__tittle">
-              Web Development <span class="">85%</span></h6>
+                Web Development <span class="">85%</span></h6>
               <div class="progress">
-                  <div class="progress-bar progress-bar-striped gradient-4" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
-                  </div>
+                <div class="progress-bar progress-bar-striped gradient-4" role="progressbar" style="width: 85%"
+                  aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                </div>
               </div>
             </div>
           </div>
@@ -398,9 +405,10 @@
         <div class="owl-carousel owl-theme">
           <div class="item">
             <div class="carousel__text">
-             <p>Lorem ipsum dolor sit amet elit. Velit beatae laudantium voluptate rem ullam dolore nisi voluptatibus esse 
-               quasi, doloribus tempora. Dolores molestias adipisci dolo amet!. Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Esse architecto est ea sunt eligendi cum?</p> 
+              <p>Lorem ipsum dolor sit amet elit. Velit beatae laudantium voluptate rem ullam dolore nisi voluptatibus
+                esse
+                quasi, doloribus tempora. Dolores molestias adipisci dolo amet!. Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Esse architecto est ea sunt eligendi cum?</p>
             </div>
             <div class="carousel__infor">
               <div class="carousel__img">
@@ -414,53 +422,56 @@
           </div>
           <div class="item">
             <div class="carousel__text">
-              <p>Lorem ipsum dolor sit amet elit. Velit beatae laudantium voluptate rem ullam dolore nisi voluptatibus esse 
+              <p>Lorem ipsum dolor sit amet elit. Velit beatae laudantium voluptate rem ullam dolore nisi voluptatibus
+                esse
                 quasi, doloribus tempora. Dolores molestias adipisci dolo amet!. Lorem ipsum dolor sit amet consectetur
-               adipisicing elit. Esse architecto est ea sunt eligendi cum?</p> 
-             </div>
-             <div class="carousel__infor">
-               <div class="carousel__img">
-                 <img src="./images/home/team2.jpg" alt="">
-               </div>
-               <div class="carousel__name">
-                 <h3>John Wilson</h3>
-                 <h4>Student</h4>
-               </div>
-             </div>
+                adipisicing elit. Esse architecto est ea sunt eligendi cum?</p>
+            </div>
+            <div class="carousel__infor">
+              <div class="carousel__img">
+                <img src="./images/home/team2.jpg" alt="">
+              </div>
+              <div class="carousel__name">
+                <h3>John Wilson</h3>
+                <h4>Student</h4>
+              </div>
+            </div>
           </div>
           <div class="item">
             <div class="carousel__text">
-              <p>Lorem ipsum dolor sit amet elit. Velit beatae laudantium voluptate rem ullam dolore nisi voluptatibus esse 
+              <p>Lorem ipsum dolor sit amet elit. Velit beatae laudantium voluptate rem ullam dolore nisi voluptatibus
+                esse
                 quasi, doloribus tempora. Dolores molestias adipisci dolo amet!. Lorem ipsum dolor sit amet consectetur
-               adipisicing elit. Esse architecto est ea sunt eligendi cum?</p> 
-             </div>
-             <div class="carousel__infor">
-               <div class="carousel__img">
-                 <img src="./images/home/team3.jpg" alt="">
-               </div>
-               <div class="carousel__name">
-                 <h3>John Wilson</h3>
-                 <h4>Student</h4>
-               </div>
-             </div>
+                adipisicing elit. Esse architecto est ea sunt eligendi cum?</p>
+            </div>
+            <div class="carousel__infor">
+              <div class="carousel__img">
+                <img src="./images/home/team3.jpg" alt="">
+              </div>
+              <div class="carousel__name">
+                <h3>John Wilson</h3>
+                <h4>Student</h4>
+              </div>
+            </div>
           </div>
           <div class="item">
             <div class="carousel__text">
-              <p>Lorem ipsum dolor sit amet elit. Velit beatae laudantium voluptate rem ullam dolore nisi voluptatibus esse 
+              <p>Lorem ipsum dolor sit amet elit. Velit beatae laudantium voluptate rem ullam dolore nisi voluptatibus
+                esse
                 quasi, doloribus tempora. Dolores molestias adipisci dolo amet!. Lorem ipsum dolor sit amet consectetur
-               adipisicing elit. Esse architecto est ea sunt eligendi cum?</p> 
-             </div>
-             <div class="carousel__infor">
-               <div class="carousel__img">
-                 <img src="./images/home/team4.jpg" alt="">
-               </div>
-               <div class="carousel__name">
-                 <h3>John Wilson</h3>
-                 <h4>Student</h4>
-               </div>
-             </div>
+                adipisicing elit. Esse architecto est ea sunt eligendi cum?</p>
+            </div>
+            <div class="carousel__infor">
+              <div class="carousel__img">
+                <img src="./images/home/team4.jpg" alt="">
+              </div>
+              <div class="carousel__name">
+                <h3>John Wilson</h3>
+                <h4>Student</h4>
+              </div>
+            </div>
           </div>
-      </div>
+        </div>
       </div>
     </div>
   </section>
@@ -531,13 +542,14 @@
   </section>
   <!-- FOOTER -->
   <footer>
-  <div class="footer__top py-5">
+    <div class="footer__top py-5">
       <div class="container py-5">
         <div class="footer__content">
-                  <div class="footer__title">
-          <h3>Let’s find out how to work together</h3>
-          <p class="mt-3">Lorem ipsum dolor sit amet elit. Velit beatae rem ullam dolore nisi esse quasi, sit amet. Lorem ipsum dolor sit amet elit.</p>
-        </div>
+          <div class="footer__title">
+            <h3>Let’s find out how to work together</h3>
+            <p class="mt-3">Lorem ipsum dolor sit amet elit. Velit beatae rem ullam dolore nisi esse quasi, sit amet.
+              Lorem ipsum dolor sit amet elit.</p>
+          </div>
           <form class="footer__form mt-5">
             <div class="form__icon">
               <span class="fa fa-paper-plane"></span>
@@ -548,55 +560,56 @@
         </div>
       </div>
     </div>
-  <div class="footer__bottom py-5">
-    <div class="container py-md-4">
-      <div class="row">
-        <div class="col-4">
-          <a class="footer__logo mb-4 navbar-brand" href="#">
-            <h1 class=" mb-0"><span class="fa fa-align-right"></span> Corp Vision</h1>
-            <h4 class=" mb-0">Vision to your future</h4>
-          </a>
-          <p class="mb-0">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit amet Semper at elit team advisors.</p>
-          <div class="footer__icon mt-md-4 mt-3">
-            <i class="fa-brands fa-facebook-f"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-linkedin-in"></i>
+    <div class="footer__bottom py-5">
+      <div class="container py-md-4">
+        <div class="row">
+          <div class="col-4">
+            <a class="footer__logo mb-4 navbar-brand" href="#">
+              <h1 class=" mb-0"><span class="fa fa-align-right"></span> Corp Vision</h1>
+              <h4 class=" mb-0">Vision to your future</h4>
+            </a>
+            <p class="mb-0">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at
+              tempufddfel. Lorem ipsum dolor sit amet Semper at elit team advisors.</p>
+            <div class="footer__icon mt-md-4 mt-3">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+          </div>
+          <div class="footer__text col-4">
+            <h6>CONTACT INFO</h6>
+            <p class="mb-2">Address : Corp Vision, 343 marketing, #21 cravel 1st lane street, NY - 62617.</p>
+            <p class="mb-2">Phone Number :<a href="tel:+1(21) 234 4567">+1(21) 234 4567</a></p>
+            <p class="mb-2">Email :<a href="mailto:info@example.com">info@example.com</a> </p>
+            <p class="mb-2">Support :<a href="mailto:info@example.com">info@example.com</a> </p>
+          </div>
+          <div class="footer__text col-2">
+            <h6>CATEGORIES</h6>
+            <ul>
+              <li><a href="#">Marketing Strategy</a></li>
+              <li><a href="#">Startup Business</a></li>
+              <li><a href="#">Web development</a></li>
+            </ul>
+          </div>
+          <div class="footer__text col-2">
+            <h6>META</h6>
+            <ul>
+              <li><a href="#">Log in</a></li>
+              <li><a href="#">Entries feed</a></li>
+              <li><a href="#">Comments feed</a></li>
+              <li><a href="#">WordPress.org</a></li>
+            </ul>
           </div>
         </div>
-        <div class="footer__text col-4">
-          <h6>CONTACT INFO</h6>
-          <p class="mb-2">Address : Corp Vision, 343 marketing, #21 cravel 1st lane street, NY - 62617.</p>
-          <p class="mb-2">Phone Number :<a href="tel:+1(21) 234 4567">+1(21) 234 4567</a></p>
-          <p class="mb-2">Email :<a href="mailto:info@example.com">info@example.com</a> </p>
-          <p class="mb-2">Support :<a href="mailto:info@example.com">info@example.com</a> </p>
-        </div>
-        <div class="footer__text col-2">
-          <h6>CATEGORIES</h6>
-          <ul>
-            <li><a href="#">Marketing Strategy</a></li>
-            <li><a href="#">Startup Business</a></li>
-            <li><a href="#">Web development</a></li>
-          </ul>
-        </div>
-        <div class="footer__text col-2">
-          <h6>META</h6>
-          <ul>
-            <li><a href="#">Log in</a></li>
-            <li><a href="#">Entries feed</a></li>
-            <li><a href="#">Comments feed</a></li>
-            <li><a href="#">WordPress.org</a></li>
-          </ul>
       </div>
     </div>
+    <div class="footer__copyright">
+      <div class="container">
+        <span>© 2023 Corp Vision All Rights Reserved | WordPress Theme by</span>
+        <a href="#">W3Layouts.</a>
+      </div>
     </div>
-    </div>
-  <div class="footer__copyright">
-    <div class="container">
-      <span>© 2023 Corp Vision All Rights Reserved | WordPress Theme by</span>
-      <a href="#">W3Layouts.</a>
-    </div>
-  </div>
   </footer>
   <!-- JQuery Library -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
@@ -606,33 +619,49 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
     crossorigin="anonymous"></script>
-    <!-- OWL CAROUSEL -->
-    <script src="./JS/owl.carousel.min.js"></script>
-    <script>
-      $('.owl-carousel').owlCarousel({
-    loop:false,
-    margin:10,
-    nav:false,
-    responsive:{
-        0:{
-            items:1
+  <!-- SLICK Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+    $(document).ready(function () {
+      $('.carousel__slider').slick({
+        dots: false,
+        arrows: true,
+        infinite: true,
+        speed: 500,
+        fade: true,
+        cssEase: 'linear'
+      });
+    });
+  </script>
+  <!-- OWL CAROUSEL -->
+  <script src="./JS/owl.carousel.min.js"></script>
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop: false,
+      margin: 10,
+      nav: false,
+      responsive: {
+        0: {
+          items: 1
         },
-        600:{
-            items:1
+        600: {
+          items: 1
         },
-        1000:{
-            items:1
+        1000: {
+          items: 1
         }
-    }
-})
-    </script>
-    <!-- LIGHT BOX -->
-    <script src="./JS/lightbox.min.js"></script>
-    <script>
-      lightbox.option({
-        'resizeDuration': 600,
-        'wrapAround': true
-      })
+      }
+    })
+  </script>
+  <!-- LIGHT BOX -->
+  <script src="./JS/lightbox.min.js"></script>
+  <script>
+    lightbox.option({
+      'resizeDuration': 600,
+      'wrapAround': true
+    })
   </script>
 </body>
 

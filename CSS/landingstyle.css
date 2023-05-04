@@ -10,11 +10,12 @@ html , body {
 /* HEADER */
 header{
     border-bottom: 1px solid rgba(231, 231, 231, 0.18);
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
+    height: 100px;
     width: 100%;
-    z-index: 100;
+    z-index: 10;
 }
 .navbar .header__title h1{
     font-size: 30px;
@@ -69,7 +70,7 @@ header{
     position: absolute;
     top: -7px;
     left: 49%;
-    z-index: 1001;
+    z-index: 10;
 }
 
 #navbarCorpvision .nav-item{
@@ -94,15 +95,72 @@ header{
     color: black;
 }
 /* CAROUSEL */
-
-.carouselCorpVision{
-    background-image: url(../images/about/b1.jpg);
+.carousel{
     position: relative;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 390px;
+    height: auto;
+    overflow: hidden;
 }
-
+.banner{
+    height: 100%;
+}
+.banner .slick-arrow{
+    position: absolute;
+    right: 25px;
+    top: 750px;
+    font-size: 0;
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    z-index: 12;
+    outline: none;
+    border-radius: 100%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.12);
+    border: 1px solid transparent;
+}
+.banner .slick-arrow.slick-prev{
+    left: 1715px;
+}
+.banner .slick-arrow::before{
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 16px;
+    text-align: center;
+    line-height: 46px;
+    font-weight: 700;
+    color: #3f3a64;
+}
+.carousel__item{
+    position: relative;
+    min-height: 800px;
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+    z-index: 0;
+    padding: 3em 0;
+}
+.bg1{
+    background-image: url(../images/home/b1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: top;
+}
+.bg2{
+    background-image: url(../images/home/b2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: top;
+}
+.bg3{
+    background-image: url(../images/home/b3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: top;
+}
+.bg4{
+    background-image: url(../images/home/b4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: top;
+}
 .overlay{
     background-color: rgba(29, 42, 55, 0.7);
     position: absolute;
@@ -112,25 +170,46 @@ header{
     height: 100%;
     z-index: 1;
 }
-
-.carousel__title{
-    position: absolute;
-    text-align: center;
-    top: 195px;
-    right: 750px;
-    color: white;
-    z-index: 3;
-}
-
-.carousel__title h1{
-    font-size: 50px;
+.carousel__content h1{
+    font-size: 65px;
+    line-height: 1.1;
+    margin-bottom: 18px;
+    max-width: 800px;
     font-weight: 600;
-}
-
-.carousel__title p{
     color: #fff;
+}
+.carousel__content p{
     font-size: 20px;
-    opacity: 0.7;
+    line-height: 30px;
+    max-width: 600px;
+    color: #fff;
+    letter-spacing: 0.010em;
+    opacity: .9;
+}
+.carousel-button .editor{
+    font-weight: 700;
+    background-size: 200%;
+    padding: 10px 50px;
+    border-radius: 8px;
+}
+.container{
+    position: relative;
+    z-index: 12;
+}
+.carousel__item .btn{
+    font-weight: 700;
+    background-size: 200%;
+    padding: 10px 50px;
+    border-radius: 8px;
+}
+.lightbar{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.lightbar path{
+    fill: #fff;
 }
 /* FOOTER BOTTOM */
 .footer__bottom{
