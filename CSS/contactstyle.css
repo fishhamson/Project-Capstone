@@ -352,3 +352,40 @@ header{
 .footer__copyright a:hover{
     color: white;
 }
+/* RESPONSIVE */
+/* HEADER */
+@media  screen and (max-width:1280px){
+    .carousel__content h1{
+        font-size: 55px;
+    }
+}
+@media  screen and (max-width:991.98px) {
+    .header__search{
+        display: none;
+    }
+    .navbar-collapse{
+        background-color: rgba(21, 20, 33, 0.5);
+        text-align: center;
+    }
+    #navbarCorpvision .navbar-nav .dropdown-menu {
+        transform: translateX(0px);
+        background: white;
+        border: 1px solid white;
+        border-radius: 8px;
+        position: absolute;
+        left: -50px;
+        border-radius: 8px;
+        width: 100%; 
+        position: static; 
+        text-align: center;
+    }
+}
+
+.navbar-toggler-icon{
+    color: white;
+    width: 37px;
+    height: 37px;
+    line-height: 37px;
+    background-color: #009f4d;
+    border-radius: 4px;
+}

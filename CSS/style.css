@@ -175,6 +175,7 @@ header{
 .carousel__content p{
     font-size: 20px;
     line-height: 30px;
+    max-width: 600px;
     color: #fff;
     letter-spacing: 0.010em;
     opacity: .9;
@@ -194,6 +195,7 @@ header{
     background-size: 200%;
     padding: 10px 50px;
     border-radius: 8px;
+    margin-top: 30px;
 }
 .lightbar{
     position: absolute;
@@ -1048,6 +1050,11 @@ header{
 
 /* RESPONSIVE */
 /* HEADER */
+@media  screen and (max-width:1280px){
+    .carousel__content h1{
+        font-size: 55px;
+    }
+}
 @media  screen and (max-width:991.98px) {
     .header__search{
         display: none;
@@ -1067,6 +1074,18 @@ header{
         width: 100%; 
         position: static; 
         text-align: center;
+    }
+    .carousel__content h1{
+        font-size: 50px;
+    }
+}
+@media screen and (max-width:768px){
+    .carousel__content h1{
+        font-size: 45px;
+    }
+    .carousel__content p{
+        font-size: 18px;
+        line-height: 28px;
     }
 }
 @media screen and (max-width: 568px){
@@ -1088,7 +1107,9 @@ header{
         font-size: 30px;
         line-height: 38px;
     }
-
+    .carousel__content h1{
+        font-size: 40px;
+    }
 
 }
 
