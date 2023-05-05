@@ -248,28 +248,14 @@ header{
     border-color: #00732c;
     box-shadow: 0 0 0 0.2rem rgba(38, 179, 92, 0.5);
 }
-
-
-
-
-
-
-
-
-
-
-
-
 /* FOOTER BOTTOM */
 .footer__bottom{
     background-color: #151421;
     border-top: 1px solid rgba(249, 249, 249, 0.1);
 }
-
 .footer__bottom h6{
     color: white;
 }
-
 .footer__bottom p, .footer__bottom a{
     color: #97a1a9;
     font-size: 18px;
@@ -290,7 +276,6 @@ header{
 .footer__bottom li{
     margin-bottom: 10px;
 }
-
 .footer__icon i{
     margin-right: 15px;
     text-align: center;
@@ -305,7 +290,6 @@ header{
     color: white;
     opacity: 1;
 }
-
 .footer__logo h1{
     font-size: 30px;
     color: #fff;
@@ -320,7 +304,6 @@ header{
     font-weight: 600;
     color: white;
 }
-
 .footer__bottom .footer__text h6{
     font-size: 22px;
     line-height: 28px;
@@ -328,7 +311,6 @@ header{
     font-weight: 400;
     letter-spacing: .5px;
 }
-
 /* COPYRIGHT */
 .footer__copyright{
     background-color: #151421;
