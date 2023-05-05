@@ -492,9 +492,11 @@ header{
     overflow: hidden;
     border-radius: 8px;
     position: relative;
+    
 }
 .team__img .team__item img{
     border-radius: 8px;
+    width: 100%;
 }
 .team__overlay{
     background-color: rgba(20, 20, 20, 0.7);
@@ -584,6 +586,7 @@ header{
     line-height: 45px;
     font-weight: 700;
     color: #3f3a64;
+
 }
 
 .chooseUs .chooseUs__icon1 i{
@@ -640,6 +643,7 @@ header{
     opacity: .8;
     font-size: 17px;
     line-height: 27px;
+    margin-bottom: 0;
 }
 
 .chooseUs__item .chooseUs__text a:hover{
@@ -777,9 +781,18 @@ header{
 
 /* RESPONSIVE */
 /* HEADER */
-@media  screen and (max-width:1280px){
-    .carousel__content h1{
-        font-size: 55px;
+@media  screen and (max-width:1080px){
+    .aboutUs__right h3{
+    font-size: 32px;
+    line-height: 40px;
+    }
+    .marketing .marketing__col1 h3{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .chooseUs .chooseUs__title p{
+        font-size: 30px;
+        line-height: 40px;
     }
 }
 @media  screen and (max-width:991.98px) {
@@ -803,7 +816,17 @@ header{
         text-align: center;
     }
 }
-
+@media  screen and (max-width:568px){
+    
+    .chooseUs .chooseUs__title p{
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .getProject__text h3{
+        font-size: 30px;
+        line-height: 38px;
+    }
+}
 .navbar-toggler-icon{
     color: white;
     width: 37px;
