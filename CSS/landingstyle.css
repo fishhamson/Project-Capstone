@@ -211,7 +211,6 @@ header{
 .lightbar path{
     fill: #fff;
 }
-<<<<<<< HEAD
 /* ABOUT */
 .about__images{
     position: relative;
@@ -1329,7 +1328,6 @@ iframe{
     background-color: #008030;
     border-color: #00732c;
 }
-=======
 /* BACKTOTOP */
 .backToTop{
     background-color: #009f4d;
@@ -1358,7 +1356,6 @@ iframe{
   }
 
 /* FOOTER BOTTOM */
->>>>>>> eebe3424a03cc73366c7bd15936533f29671826e
 .footer__bottom{
     background-color: #151421;
     border-top: 1px solid rgba(249, 249, 249, 0.1);
