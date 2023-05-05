@@ -175,7 +175,6 @@ header{
 .carousel__content p{
     font-size: 20px;
     line-height: 30px;
-    max-width: 600px;
     color: #fff;
     letter-spacing: 0.010em;
     opacity: .9;
@@ -217,6 +216,7 @@ header{
     font-size: 35px;
     line-height: 45px;
     font-weight: 700;
+    color: #3f3a64;
 }
 .aboutUs__content p{
     color: #404040;
@@ -266,9 +266,10 @@ header{
     color: #3f3a64;
 }
 .challenges__content p{
-    color: #404040;
-    font-size: 1rem;
-    line-height: 1.5;
+    color: #666;
+    opacity: .7;
+    font-size: 17px;
+    line-height: 27px;
 }
 .challenges .challenges__content button{
     padding: 15px 50px;
@@ -310,6 +311,10 @@ header{
 .challenges__right .challenges__item a{
     color: #3f3a64;
     text-decoration: none;
+    transition: all .5s;
+}
+.challenges__right .challenges__item a:hover{
+    color: #009f4d;
 }
 .challenges__right .challenges__item h4{
     margin-top: 25px;
@@ -358,7 +363,7 @@ header{
 .services__item a:hover:nth-of-type(1){
     color: #009f4d;
 }
-.services__item p{
+.carousel__content p.services__item p{
     font-size: 17px;
     line-height: 27px;
     color: #666;
@@ -402,8 +407,9 @@ header{
     margin: 0;
 }
 .gallery__title h3{
+    color:  #3f3a64;
     font-size: 35px;
-    font-weight: 900px;
+    font-weight: 700;
     padding-bottom: 2rem;
 }
 .gallery__item{
@@ -1041,3 +1047,56 @@ header{
 }
 
 /* RESPONSIVE */
+/* HEADER */
+@media  screen and (max-width:991.98px) {
+    .header__search{
+        display: none;
+    }
+    .navbar-collapse{
+        background-color: rgba(21, 20, 33, 0.5);
+        text-align: center;
+    }
+    #navbarCorpvision .navbar-nav .dropdown-menu {
+        transform: translateX(0px);
+        background: white;
+        border: 1px solid white;
+        border-radius: 8px;
+        position: absolute;
+        left: -50px;
+        border-radius: 8px;
+        width: 100%; 
+        position: static; 
+        text-align: center;
+    }
+}
+@media screen and (max-width: 568px){
+    .challenges__left h3{
+    font-size: 30px;
+    line-height: 38px;
+    }
+
+    .challenges__left p {
+        margin-bottom: 10px;
+    }
+
+    .aboutUs__content h3{
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .footer__title h3{
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+
+}
+
+.navbar-toggler-icon{
+    color: white;
+    width: 37px;
+    height: 37px;
+    line-height: 37px;
+    background-color: #009f4d;
+    border-radius: 4px;
+}
