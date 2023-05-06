@@ -23,11 +23,11 @@
 
 <body>
   <!-- HEADER -->
-  <header class="py-3">
+  <header class="py-2">
     <nav class="navbar navbar-expand-lg container">
       <a class="header__title navbar-brand" href="#">
-        <h1 class=" mb-0"><span class="fa fa-align-right"></span> Corp Vision</h1>
-        <h4 class=" mb-0">Vision to your future</h4>
+        <h1 id="colorLogo1" class="header__logo mb-0"><span class="fa fa-align-right"></span> Corp Vision</h1>
+        <h4 id="colorLogo2" class="header__logo mb-0">Vision to your future</h4>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCorpvision"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,17 +36,17 @@
 
       <div class="collapse navbar-collapse" id="navbarCorpvision">
         <ul class="navbar-nav mx-auto">
-          <li class="nav-item ">
-            <a class="nav-link" href="../index.html">HOME <span class="sr-only">(current)</span></a>
+          <li class="nav-item">
+            <a  id="colorText2" class="nav-link" href="../index.html">HOME <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../Pages/about.html">ABOUT</a>
+            <a id="colorText1" class="nav-link" href="../Pages/about.html">ABOUT</a>
           </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="../Pages/services.html">SERVICES</a>
+          <li id="scroll" class="nav-item active">
+            <a id="active" class="nav-link" href="../Pages/services.html">SERVICES</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+            <a id="colorText3" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
               PAGES
             </a>
             <div class="dropdown-menu">
@@ -57,7 +57,7 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../Pages/contact.html">CONTACT</a>
+            <a id="colorText4" class="nav-link" href="./Pages/contact.html">CONTACT</a>
           </li>
         </ul>
         <!-- <form class="form-inline my-2 my-lg-0">
@@ -380,6 +380,8 @@
       <!-- backToTop -->
   <script src="../JS/util.js"></script>
   <script src="../JS/main.js"></script>
+    <!-- scrollHeader -->
+    <script src="../JS/header.js"></script>
 </body>
 
 </html>

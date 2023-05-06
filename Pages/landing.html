@@ -37,11 +37,11 @@
 
 <body>
   <!-- HEADER -->
-  <header class="py-3">
+  <header class="py-2">
     <nav class="navbar navbar-expand-lg container">
       <a class="header__title navbar-brand" href="#">
-        <h1 class=" mb-0"><span class="fa fa-align-right"></span> Corp Vision</h1>
-        <h4 class=" mb-0">Vision to your future</h4>
+        <h1 id="colorLogo1" class="header__logo mb-0"><span class="fa fa-align-right"></span> Corp Vision</h1>
+        <h4 id="colorLogo2" class="header__logo mb-0">Vision to your future</h4>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCorpvision"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,34 +50,34 @@
 
       <div class="collapse navbar-collapse" id="navbarCorpvision">
         <ul class="navbar-nav mx-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="../index.html">HOME <span class="sr-only">(current)</span></a>
+          <li class="nav-item active">
+            <a id="colorText3" class="nav-link" href="../index.html">HOME <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../Pages/about.html">ABOUT</a>
+            <a id="colorText1" class="nav-link" href="../Pages/about.html">ABOUT</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../Pages/services.html">SERVICES</a>
+            <a id="colorText2" class="nav-link" href="../Pages/services.html">SERVICES</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+          <li  id="scroll" class="nav-item dropdown active">
+            <a  id="active" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
               PAGES
             </a>
             <div class="dropdown-menu">
               <a class="dropdown-item landing__effect" href="../Pages/blogposts.html">BLOG POST</a>
               <a class="dropdown-item landing__effect" href="../Pages/404.html">404 PAGES</a>
-              <a class="dropdown-item active" href="../Pages/landing.html">LANDING PAGE</a>
+              <a class="dropdown-item  activeLogo" href="../Pages/landing.html">LANDING PAGE</a>
               <a class="dropdown-item landing__effect" href="../Pages/elements.html">ELEMENTS PAGE</a>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../Pages/contact.html">CONTACT</a>
+            <a id="colorText4" class="nav-link" href="./Pages/contact.html">CONTACT</a>
           </li>
         </ul>
         <!-- <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form> -->
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form> -->
       </div>
 
       <div class="header__search">
@@ -131,7 +131,7 @@
         <div class="carousel__item bg4">
           <div class="container">
             <div class="carousel__info">
-              <h3>For those who believe in leaving a mark</h3>
+              <h1>For those who believe in leaving a mark</h1>
               <p class="mt-4">Lorem ipsum dolor sit amet, elit, sed do eiusmod ut labore et
                 dolore magna aliqua. Ut enim ad minim veniam, quis nisi ut ea. </p>
             </div>
@@ -965,6 +965,8 @@
     <!-- backToTop -->
     <script src="../JS/util.js"></script>
     <script src="../JS/main.js"></script>
+    <!-- HEADER SCROLL -->
+    <script src="../JS/header.js"></script>
 </body>
 
 </html>

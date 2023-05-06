@@ -18,53 +18,54 @@
 </head>
 <body>
     <!-- HEADER -->
-    <header class="py-3">
+    <header class="py-2">
       <nav class="navbar navbar-expand-lg container">
-          <a class="header__title navbar-brand" href="#">
-              <h1 class=" mb-0"><span class="fa fa-align-right"></span> Corp Vision</h1>
-              <h4 class=" mb-0">Vision to your future</h4>
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCorpvision" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon fa-solid fa-bars"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarCorpvision">
-            <ul class="navbar-nav mx-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="../index.html">HOME <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../Pages/about.html">ABOUT</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="../Pages/services.html">SERVICES</a>
-                </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                  PAGES
-                </a>
-                <div class="dropdown-menu">
-                  <a class="dropdown-item  active" href="../Pages/blogposts.html">BLOG POST</a>
-                  <a class="dropdown-item blog__effect" href="../Pages/404.html">404 PAGES</a>
-                  <a class="dropdown-item blog__effect" href="../Pages/landing.html">LANDING PAGE</a>
-                  <a class="dropdown-item blog__effect" href="../Pages/elements.html">ELEMENTS PAGE</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../Pages/contact.html">CONTACT</a>
-              </li>
-            </ul>
-            <!-- <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form> -->
-          </div>
-
-          <div class="header__search">
-              <i class="fa-solid fa-magnifying-glass"></i>
-          </div>
-        </nav>
-  </header>
+        <a class="header__title navbar-brand" href="#">
+          <h1 id="colorLogo1" class="header__logo mb-0"><span class="fa fa-align-right"></span> Corp Vision</h1>
+          <h4 id="colorLogo2" class="header__logo mb-0">Vision to your future</h4>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCorpvision"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon fa-solid fa-bars"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarCorpvision">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item active">
+              <a id="colorText3" class="nav-link" href="../index.html">HOME <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a id="colorText1" class="nav-link" href="../Pages/about.html">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a id="colorText2" class="nav-link" href="../Pages/services.html">SERVICES</a>
+            </li>
+            <li  id="scroll" class="nav-item dropdown active">
+              <a  id="active" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                PAGES
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item activeLogo" href="../Pages/blogposts.html">BLOG POST</a>
+                <a class="dropdown-item blog__effect" href="../Pages/404.html">404 PAGES</a>
+                <a class="dropdown-item blog__effect" href="../Pages/landing.html">LANDING PAGE</a>
+                <a class="dropdown-item blog__effect" href="../Pages/elements.html">ELEMENTS PAGE</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a id="colorText4" class="nav-link" href="./Pages/contact.html">CONTACT</a>
+            </li>
+          </ul>
+          <!-- <form class="form-inline my-2 my-lg-0">
+                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form> -->
+        </div>
+  
+        <div class="header__search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </nav>
+    </header>
     <!-- CAROUSEL -->
     <section class="carouselCorpVision">
       <div class="overlay"></div>
@@ -259,5 +260,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- BS LIBRARY -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <!-- HEADER SCROLL -->
+    <script src="../JS/header.js"></script>
 </body>
 </html>

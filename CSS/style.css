@@ -10,10 +10,29 @@ html , body {
 /* HEADER */
 header{
     border-bottom: 1px solid rgba(231, 231, 231, 0.18);
-    z-index: 3;
-    position: absolute;
+    z-index: 100;
+    position: fixed;
     width: 100%;
+    transition: all .6s;
 }
+.sticky{
+    background-color: #fff;
+    height: 80px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.05);
+}
+#navbarCorpvision .navbar-nav #scroll .colorFix {
+    color: #009f4d;
+}
+
+#navbarCorpvision .navbar-nav .nav-item .nav-link.colorText{
+    color: #3f3a64;
+    opacity: .7;
+}
+
+.navbar .header__logo.colorLogo{
+    color: #3f3a64;
+}
+
 .navbar .header__title h1{
     font-size: 30px;
     color: #fff;
