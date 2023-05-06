@@ -15,7 +15,7 @@ header{
     right: 0;
     height: 100px;
     width: 100%;
-    z-index: 10;
+    z-index: 100;
 }
 .navbar .header__title h1{
     font-size: 30px;
@@ -1452,6 +1452,12 @@ iframe{
 @media  screen and (max-width:1280px){
     .carousel__content h1{
         font-size: 55px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .about__images  .shape{
+        width: 450px;
+        height: 450px;
     }
 }
 @media  screen and (max-width:991.98px) {
