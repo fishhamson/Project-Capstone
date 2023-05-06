@@ -814,9 +814,6 @@ header{
         height: 450px;
     }
 }
-
-
-
 @media  screen and (max-width:1080px){
     .aboutUs__right h3{
     font-size: 32px;
