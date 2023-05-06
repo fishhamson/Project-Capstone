@@ -296,10 +296,7 @@ header{
 .pagination{
     margin-top: 2em;
 }
-.content .page-item2:first-child .page-link{
-    border-radius: 0;
-}
-.content .page-item2:last-child .page-link{
+.content .page-item .page-link{
     border-radius: 0;
 }
 .pagination .page__effect{

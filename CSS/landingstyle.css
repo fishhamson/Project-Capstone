@@ -1450,7 +1450,7 @@ iframe{
 /* RESPONSIVE */
 /* HEADER */
 @media  screen and (max-width:1280px){
-    .carousel__content h1{
+    .carousel__info h1{
         font-size: 55px;
     }
 }
@@ -1480,6 +1480,24 @@ iframe{
         position: static; 
         text-align: center;
     }
+    .carousel__info h1{
+        font-size: 50px;
+    }
+}
+@media screen and (max-width:768px){
+    .carousel__info h1{
+        font-size: 45px;
+    }
+    .carousel__info p{
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
+@media screen and (max-width: 568px){
+    .carousel__info h1{
+        font-size: 40px;
+    }
+
 }
 
 .navbar-toggler-icon{
