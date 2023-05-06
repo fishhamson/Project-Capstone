@@ -135,7 +135,7 @@ header{
 }
 /* ABOUT US */
 .aboutUs_left{
-    position: relative;
+    position: relative;    
 }
 .aboutUs__left img{
    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
@@ -807,6 +807,16 @@ header{
 
 /* RESPONSIVE */
 /* HEADER */
+
+@media screen and (max-width: 1200px) {
+    .aboutUs__left  .shadow{
+        width: 450px;
+        height: 450px;
+    }
+}
+
+
+
 @media  screen and (max-width:1080px){
     .aboutUs__right h3{
     font-size: 32px;
