@@ -17,6 +17,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;600&display=swap" rel="stylesheet">
+  <!-- ANIMATION CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <!-- MAIN CSS -->
   <link rel="stylesheet" href="../CSS/404style.css">
 </head>
@@ -45,8 +47,9 @@
           <li class="nav-item">
             <a id="colorText2" class="nav-link" href="../Pages/services.html">SERVICES</a>
           </li>
-          <li  id="scroll" class="nav-item dropdown active">
-            <a  id="active" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+          <li id="scroll" class="nav-item dropdown active">
+            <a id="active" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+              aria-expanded="false">
               PAGES
             </a>
             <div class="dropdown-menu">
@@ -66,8 +69,16 @@
               </form> -->
       </div>
 
-      <div class="header__search">
-        <i class="fa-solid fa-magnifying-glass"></i>
+      <div class="search-container">
+        <div class="search-trigger">
+          <i class="fa-solid fa-magnifying-glass icon-material-search"></i>
+        </div>
+        <div class="search-bar hidden">
+          <input class="input-search" name="s" placeholder="Start Typing" type="text">
+          <div class="search-close">
+            <i class="icon-close fa fa-close material-icons"></i>
+          </div>
+        </div>
       </div>
     </nav>
   </header>
@@ -167,6 +178,24 @@
     crossorigin="anonymous"></script>
   <!-- HEADER SCROLL -->
   <script src="../JS/header.js"></script>
+  <!-- SEARCH BAR -->
+  <script>
+    $(document).ready(function () {
+      if ($('.search-trigger').click(function () {
+        $('.search-bar').toggleClass('hidden');
+        $('.search-trigger').css('transform', 'scale(67)');
+        $('.search-trigger').css('cursor', 'none');
+        $('.icon-material-search').css('opacity', '0');
+        $('.search-bar input[type="text"]').focus();
+      }));
+      if ($('.search-close').click(function () {
+        $('.search-bar').addClass('hidden');
+        $('.search-trigger').css('transform', 'scale(1)');
+        $('.search-trigger').css('cursor', 'pointer');
+        $('.icon-material-search').css('opacity', '1');
+      }));
+    });
+  </script>
 </body>
 
 </html>

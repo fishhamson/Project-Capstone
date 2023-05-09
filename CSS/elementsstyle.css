@@ -93,6 +93,89 @@ header{
     background: none;
     color: black;
 }
+/* SEARCH BAR */
+.search-container {
+    position: relative;
+}
+
+.search-trigger {
+    cursor: pointer;
+}
+
+.search-trigger {
+    line-height: 45px;
+    text-align: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    box-sizing: border-box;
+    background-color: #009f4d;
+    outline: 0;
+    transform-origin: 50%;
+    transition: all 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+}
+
+.search-trigger i{
+    color: #FFF;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.search-bar {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 100%;
+    color: #fff;
+    font-size: 54px;
+    border: 0;
+    background: transparent;
+    appearance: none;
+    box-sizing: border-box;
+    outline: 0;
+    font-weight: 200;
+    height: 100vh;
+    width: 100%;
+}
+
+.search-bar input{
+    position: absolute;
+    right: 570px;
+    top: 300px;
+    color: #fff !important;
+    font-size: 54px;
+    background-color: transparent;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    font-weight: 200;
+}
+
+.search-bar input::placeholder{
+    color: #fff;
+}
+
+.search-close {
+    position: absolute;
+    top: 5px;
+    right: 60px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.search-close i{
+    color: #FFF;
+    cursor: pointer;
+    font-size: 70px;
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}
 /* CAROUSEL */
 
 .carouselCorpVision{

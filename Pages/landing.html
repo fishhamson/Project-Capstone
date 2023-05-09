@@ -91,17 +91,6 @@
           </div>
         </div>
       </div>
-      <!-- <div class="header__search">
-        <div class="btn__search">
-          <i class="fa-solid fa-magnifying-glass"></i>
-        </div>
-        <div class="search__input">
-          <div class="btn__close">
-            <i class="icon-close fa fa-close material-icons"></i>
-          </div>
-          <input class="input-search" name="s" placeholder="Start Typing" type="text">
-        </div>
-      </div> -->
     </nav>
   </header>
   <!-- CAROUSEL -->
@@ -996,17 +985,17 @@
   <!-- SEARCH BAR -->
   <script>
     $(document).ready(function () {
-      if($('.search-trigger').click(function () {
+      if ($('.search-trigger').click(function () {
         $('.search-bar').toggleClass('hidden');
-        $('.search-trigger').css('transform','scale(67)');
-        $('.search-trigger').css('cursor','none');
+        $('.search-trigger').css('transform', 'scale(67)');
+        $('.search-trigger').css('cursor', 'none');
         $('.icon-material-search').css('opacity', '0');
         $('.search-bar input[type="text"]').focus();
       }));
-      if($('.search-close').click(function () {
+      if ($('.search-close').click(function () {
         $('.search-bar').addClass('hidden');
-        $('.search-trigger').css('transform','scale(1)');
-        $('.search-trigger').css('cursor','pointer');
+        $('.search-trigger').css('transform', 'scale(1)');
+        $('.search-trigger').css('cursor', 'pointer');
         $('.icon-material-search').css('opacity', '1');
       }));
     });
