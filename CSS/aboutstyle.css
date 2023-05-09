@@ -931,7 +931,7 @@ header{
     }
 }
 @media  screen and (max-width:991.98px) {
-    .header__search{
+    .search-container{
         display: none;
     }
     .navbar-collapse{
