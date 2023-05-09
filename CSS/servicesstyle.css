@@ -122,6 +122,9 @@ header{
     color: black;
 }
 
+.navbar .colorMenu {
+    background-color: white;
+}
 /* CAROUSEL */
 
 .carouselCorpVision {

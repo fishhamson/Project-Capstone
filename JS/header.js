@@ -15,4 +15,6 @@ window.addEventListener("scroll", function(){
     colorLogo.classList.toggle("colorLogo", window.scrollY > 0)
     var colorLogo = document.getElementById("colorLogo2");
     colorLogo.classList.toggle("colorLogo", window.scrollY > 0)
+    var colorMenu = document.getElementById("navbarCorpvision");
+    colorMenu.classList.toggle("colorMenu", window.scrollY > 0)
   })

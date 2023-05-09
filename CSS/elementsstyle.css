@@ -93,6 +93,10 @@ header{
     background: none;
     color: black;
 }
+
+.navbar .colorMenu {
+    background-color: white;
+}
 /* CAROUSEL */
 
 .carouselCorpVision{

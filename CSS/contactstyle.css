@@ -107,6 +107,9 @@ header{
     background: none;
     color: black;
 }
+.navbar .colorMenu {
+    background-color: white;
+}
 /* CAROUSEL */
 .carouselCorpVision{
     background-image: url(../images/about/b1.jpg);

@@ -123,7 +123,10 @@ header {
     color: black;
 }
 
-
+.navbar .colorMenu {
+    background-color: white;
+    transition: all .5s;
+}
 
 /* CAROUSEL */
 .carousel {
@@ -151,9 +154,11 @@ header {
     border: 1px solid transparent;
 }
 
-.banner .slick-arrow.slick-prev {
-    left: 1715px;
+.banner .slick-arrow.slick-prev{
+    right: 95px;
+    left: auto;
 }
+
 
 .banner .slick-arrow::before {
     font: normal normal normal 14px/1 FontAwesome;
@@ -1242,7 +1247,7 @@ header {
     }
 
     .navbar-collapse {
-        background-color: rgba(21, 20, 33, 0.5);
+        background-color: rgba(0, 0, 0, 0.459);
         text-align: center;
     }
 

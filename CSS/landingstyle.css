@@ -129,6 +129,10 @@ header {
     color: black;
 }
 
+.navbar .colorMenu {
+    background-color: white;
+}
+
 /* SEARCH BAR */
 .search-container {
     position: relative;
@@ -240,7 +244,8 @@ header {
 }
 
 .banner .slick-arrow.slick-prev {
-    left: 1715px;
+    right: 95px;
+    left: auto;
 }
 
 .banner .slick-arrow::before {
