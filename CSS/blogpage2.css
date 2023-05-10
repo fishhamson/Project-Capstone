@@ -427,6 +427,35 @@ header{
     background-color: #009f4d;
     border: 2px solid #009f4d;
 } 
+
+/* BACKTOTOP */
+.backToTop {
+    background-color: #009f4d;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .2s;
+    z-index: 100;
+}
+
+.backToTop i {
+    color: white;
+}
+
+.cd-top--is-visible {
+    visibility: visible;
+    opacity: 1;
+}
+
 /* RESPONSIVE */
 /* HEADER */
 @media  screen and (max-width:1280px){
