@@ -223,17 +223,11 @@ header {
     height: auto;
     overflow: hidden;
 }
-
-.banner {
-    height: 100%;
-}
-
-.banner .slick-arrow {
+.carousel-control-prev , .carousel-control-next  {
     position: absolute;
     right: 25px;
-    top: 750px;
+    top: 740px;
     font-size: 0;
-    background-color: #fff;
     width: 50px;
     height: 50px;
     z-index: 12;
@@ -243,11 +237,10 @@ header {
     border: 1px solid transparent;
 }
 
-.banner .slick-arrow.slick-prev {
+.carousel-control-prev{
     right: 95px;
     left: auto;
 }
-
 .banner .slick-arrow::before {
     font: normal normal normal 14px/1 FontAwesome;
     font-size: 16px;
@@ -257,42 +250,23 @@ header {
     color: #3f3a64;
 }
 
-.carousel__item {
-    position: relative;
-    min-height: 800px;
+#carouselCorpvision .carousel-caption{
     padding-bottom: 100px;
-    display: flex;
-    align-items: center;
-    z-index: 0;
-    padding: 3em 0;
+    top: 50%;
+    left: 40%;
+    transform: translate(-40%, -50%);
 }
 
-.bg1 {
-    background-image: url(../images/home/b1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    background-position: top;
+.carousel-item{
+    overflow: hidden;
+    max-height: 800px
 }
 
-.bg2 {
-    background-image: url(../images/home/b2.jpg);
+.carousel-item img {
     background-size: cover;
-    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-repeat: no-repeat;
     background-position: top;
-}
-
-.bg3 {
-    background-image: url(../images/home/b3.jpg);
-    background-size: cover;
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    background-position: top;
-}
-
-.bg4 {
-    background-image: url(../images/home/b4.jpg);
-    background-size: cover;
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    background-position: top;
+    object-fit: cover;
 }
 
 .overlay {
@@ -305,7 +279,10 @@ header {
     z-index: 1;
 }
 
-.carousel__info h1 {
+.carousel-caption{
+    text-align: left;
+}
+.carousel-caption h1 {
     font-size: 65px;
     line-height: 1.1;
     margin-bottom: 18px;
@@ -314,7 +291,7 @@ header {
     color: #fff;
 }
 
-.carousel__info p {
+.carousel-caption p {
     font-size: 20px;
     line-height: 30px;
     max-width: 600px;
@@ -323,23 +300,12 @@ header {
     opacity: .9;
 }
 
-.carousel-button .editor {
+.carousel-caption .btn {
     font-weight: 700;
     background-size: 200%;
     padding: 10px 50px;
     border-radius: 8px;
-}
-
-.container {
-    position: relative;
-    z-index: 12;
-}
-
-.carousel__item .btn {
-    font-weight: 700;
-    background-size: 200%;
-    padding: 10px 50px;
-    border-radius: 8px;
+    margin-top: 30px;
 }
 
 .lightbar {
@@ -347,11 +313,13 @@ header {
     bottom: 0;
     left: 0;
     width: 100%;
+    z-index: 1;
 }
 
 .lightbar path {
     fill: #fff;
 }
+
 
 /* ABOUT */
 .about__images {
@@ -1731,25 +1699,18 @@ iframe {
 /* RESPONSIVE */
 /* HEADER */
 @media screen and (max-width:1280px) {
-    .carousel__info h1 {
+    #carouselCorpvision .carousel-caption h1 {
         font-size: 55px;
     }
 }
 
-@media screen and (max-width: 1200px) {
-    .about__images .shape {
-        width: 450px;
-        height: 450px;
-    }
-}
-
 @media screen and (max-width:991.98px) {
-    .search-container{
+    .search-container {
         display: none;
     }
 
     .navbar-collapse {
-        background-color: rgba(21, 20, 33, 0.5);
+        background-color: rgba(0, 0, 0, 0.459);
         text-align: center;
     }
 
@@ -1766,24 +1727,43 @@ iframe {
         text-align: center;
     }
 
-    .carousel__info h1 {
+    #carouselCorpvision .carousel-caption h1 {
         font-size: 50px;
     }
 }
 
 @media screen and (max-width:768px) {
-    .carousel__info h1 {
+    #carouselCorpvision .carousel-caption h1 {
         font-size: 45px;
     }
 
-    .carousel__info p {
+    #carouselCorpvision .carousel-caption p {
         font-size: 18px;
         line-height: 28px;
     }
 }
 
 @media screen and (max-width: 568px) {
-    .carousel__info h1 {
+    .challenges__left h3 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .challenges__left p {
+        margin-bottom: 10px;
+    }
+
+    .aboutUs__content h3 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .footer__title h3 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    #carouselCorpvision .carousel-caption h1 {
         font-size: 40px;
     }
 
